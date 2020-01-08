@@ -1,5 +1,5 @@
 # BUILDING A SKYLINE
-## Project One 
+Project One 
 Cities: Skylines - game or  a tool? Page intending to help beginners and intrigue professionals.
 
 Idea behind this project was to make a page about game called Cities: Skylines. It is a city building simulation game. 
@@ -9,14 +9,12 @@ Most of the text and pictures will be my own, and I will reference some videos t
 
 
 ## Demo:
----
 A live demo can be found [here](insert link when ready)
 
 
 
 
 ## UX
----
 
 As this is a page a bout a game and a tool, as you can see from the page, my targeted audience will be gamers, enthusiasts and even professionals like city planners and Architects. All of these people are connected with one mutual subject: city planing.
 
