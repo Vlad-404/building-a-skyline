@@ -8,3 +8,32 @@ orange         #F3AF42
 light orange   #FEFAB1
 
 */
+
+.intro-image {
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/city-monochrome.png");
+
+    display: flex;
+
+    position: relative;
+}
+
+.intro-selection {
+    border: 2px solid red;
+    height: 100vh;
+    width: 100vw;
+}
+
+.intro-selection h1 {
+    text-align: center;
+}
+
+.footer {
+      position: fixed;
+      background-color: #080808;
+      opacity: 0.5;
+      width: 100%;
+      height: 80px;
+      bottom: 0;
+    }
