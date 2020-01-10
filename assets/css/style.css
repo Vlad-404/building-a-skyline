@@ -13,8 +13,13 @@ light orange   #FEFAB1
     height: 100%;
     width: 100%;
     background-image: url("../images/city-monochrome.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
     display: flex;
+    justify-content: center;
 
     position: relative;
 }
@@ -22,17 +27,17 @@ light orange   #FEFAB1
 .intro-selection {
     border: 2px solid red;
     height: 100vh;
-    width: 100vw;
-}
-
-.intro-selection h1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     text-align: center;
 }
 
 .footer {
       position: fixed;
       background-color: #080808;
-      opacity: 0.5;
+      opacity: 0.9;
       width: 100%;
       height: 80px;
       bottom: 0;
