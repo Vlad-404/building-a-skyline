@@ -9,7 +9,7 @@ Most of the text and pictures will be my own, and I will reference some videos t
 
 
 ## Demo:
-A live demo can be found [here](insert link when ready)
+A live demo can be found [here](https://vlad-404.github.io/building-a-skyline/)
 
 
 
