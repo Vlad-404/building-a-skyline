@@ -2,10 +2,11 @@
 
 /* -------------------    Colours used   --------
 
-light blue -   #A9B9DD
+light blue -   #A9B9DD  rgb(122, 155, 208)
 light green    #A2D4AF
-orange         #F3AF42
+orange         #F3AF42  rgb(242, 157, 118)
 light orange   #FEFAB1
+light yellow   rgba(254, 250, 177, 0.3)
 
 */
 
@@ -33,6 +34,47 @@ light orange   #FEFAB1
     text-align: center;
 }
 
+.choice-container {
+    width: 100vw;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.choice-beginners {
+    background-color: rgba(254, 250, 177, 0.8);
+    height: 450px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.choice-advanced {
+    background-color: rgba(122, 155, 208, 0.8);
+    height: 450px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.choice-professionals {
+    background-color: rgba(242, 157, 118, 0.8);
+    height: 450px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* ---------------------  Buttons intro ----------------*/
+
+.btn {
+    background-color:rgb(254, 250, 177);
+    border-color: rgb(129, 105, 167);
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+    margin-top: 10px;
+}
+
+/* ---------------   Footer ----------------------------*/
+
 .footer {
       position: fixed;
       background-color: #080808;
@@ -42,6 +84,8 @@ light orange   #FEFAB1
       bottom: 0;
     }
 
+/* ---------------   Addittional helping elements- DELETE AFTER PUBLISHING! ----------------------------*/
+
 .border {
-    border: 2px solid red;
+    border: 2px solid red!important;
 }
