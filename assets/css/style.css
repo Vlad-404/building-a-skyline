@@ -159,8 +159,16 @@ light yellow   rgba(254, 250, 177, 0.3)
       width: 100%;
       height: 65px;
       bottom: 0;
+      padding: 10px;
     }
 
+.quick-links {
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    color: rgb(44, 135, 201)
+}
 
 
 /* ---------------   Addittional helping elements- DELETE AFTER PUBLISHING! ----------------------------*/
