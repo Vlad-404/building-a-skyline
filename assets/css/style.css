@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Kanit:800&display=swap');
 
 /* -------------------    Colours used   --------
 
@@ -10,8 +10,25 @@ light yellow   rgba(254, 250, 177, 0.3)
 
 */
 
+. {
+    padding: 0;
+    margin: 0;
+}
+
 .row {
     margin: 0;
+}
+
+.page-header h1 {
+    font-family: 'Kanit', sans-serif;
+    bottom: 0;
+    text-align: center;
+    font-size: 80px;
+}
+
+.page-header {
+    padding-top: 80px;
+    position: relative;
 }
 
 .intro-image {
@@ -170,9 +187,53 @@ light yellow   rgba(254, 250, 177, 0.3)
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: row;
-    color: rgb(44, 135, 201)
+    color: rgb(44, 135, 201);
 }
 
+.quick-links h2 {
+    text-decoration: none;
+}
+
+/* ----------------------------------  Beginners section   ----------------------------*/
+
+#beginners {
+    background-color: #FAF7BD;
+    margin: 0;
+}
+
+/* ----------------------------------  Advanced section   ----------------------------*/
+
+#advanced {
+    background-color: #8FA9D3;
+    margin: 0;
+}
+
+/* ----------------------------------  Pro section   ----------------------------*/
+
+
+#professionals {
+    background-color: #E19D7D;
+    margin: 0;
+}
+
+/* -------------------------------    Screen optimizations                 ----------------------------*/
+
+@media screen and (max-width: 765px) {
+
+    .choice-beginners {
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .choice-advanced {
+        border-radius: 0;
+    }
+
+    .choice-professionals {
+        border-radius: 0;
+    }
+
+}
 
 /* ---------------   Addittional helping elements- DELETE AFTER PUBLISHING! ----------------------------*/
 
