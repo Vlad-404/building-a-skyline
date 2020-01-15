@@ -260,8 +260,8 @@ light green    #A2D4AF   rgb(103, 192, 138)
 #beginners {
     background-color: #FAF7BD;
     margin: 0;
+    align-items: center;
 }
-
 /* ----------------------------------  Advanced section   ----------------------------*/
 
 #advanced {

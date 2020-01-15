@@ -15,7 +15,7 @@
 
 <body>
 
-    <header class="intro-selection">
+    <header id="top" class="intro-selection">
         <div class="intro-image" alt="Monochromatic picture of a city in the background">
 			<div class="row">
 				<div class="col-12 page-header">
@@ -52,6 +52,8 @@
 		</div>
     </header>
 
+    <!---------------------------------------------------------------- Navbar ------------------------------>
+
     <navbar class="footer quick-links row">
             <div>
                 <a href="#beginners"><h2><i class="fas fa-campground"></i> Easy</h2></a>
@@ -68,25 +70,28 @@
             </div>
                 <h2><i class="fas fa-road"></i> Traffic</h2>
             </div>
+            
+            <div>
+                <a href="#top"><h2><i class="fas fa-hand-point-up"></i> Go to top</h2></a>
+            </div>
     </navbar>
 
-    <section id="beginners">
-        <h1>Welcome to Cities: Skylines</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque nibh enim. Vestibulum ante ipsum primis
-         in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean varius vulputate faucibus. In vel dolor vel purus 
-         iaculis fringilla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla posuere 
-         diam lacus, non elementum libero ornare semper. Maecenas vel placerat augue. Duis eget sem malesuada, sagittis augue id
-         , lobortis sem. Suspendisse sed metus mauris.<br>
+    <!---------------------------------------------------------------- Beginners section ------------------------------>
 
-        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris finibus, sapien ut ornare porta, 
-        mi ligula bibendum purus, vitae luctus lectus libero a lorem. Vestibulum eu lobortis nulla, quis tempus dolor. Donec fermentum 
-        quam sed dui luctus tincidunt. Praesent sit amet condimentum neque. Donec venenatis nisi vitae ultrices mollis. Ut ullamcorper, 
-        nulla vitae consectetur vehicula, elit sapien sodales orci, ac porttitor arcu eros id nisi.<br>
+    <section id="beginners" class="row">
+        <h2 class="border col-12">Welcome to Cities: Skylines!</h2>
+        <article class="border col-5">
+            <h4>Can I run the game?</h4>
+            <!-- Min requirements, tutorial video, Wiki page-->
+        </article>
 
-        Sed quis pellentesque felis, a gravida diam. Phasellus ultricies lectus non sodales gravida. Integer scelerisque metus ac lectus 
-        fringilla laoreet. Praesent hendrerit mi dolor, vitae efficitur arcu vulputate vel. Aenean rutrum ex sed ligula ornare, vel rhoncus 
-        lorem rutrum. Proin condimentum eleifend libero eu blandit. Nullam eu lobortis leo.</p>
+        <article class="border col-7">
+            <h4>Useful Links:</h4>
+            <!-- Articles, videos-->
+        </article>
     </section>
+
+<!---------------------------------------------------------------- Advanced section ------------------------------>
 
     <section id="advanced">
         <h1>So you want to know more?</h1>
@@ -105,6 +110,8 @@
         fringilla laoreet. Praesent hendrerit mi dolor, vitae efficitur arcu vulputate vel. Aenean rutrum ex sed ligula ornare, vel rhoncus 
         lorem rutrum. Proin condimentum eleifend libero eu blandit. Nullam eu lobortis leo.</p>
     </section>
+
+<!---------------------------------------------------------------- Pro section ------------------------------>
 
     <section id="professionals">
         <h1>Mutual influence of real life and Cities: Skylines</h1>
