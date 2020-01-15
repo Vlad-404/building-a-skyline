@@ -75,6 +75,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
     padding-bottom: 20px;
     border-radius: 10px;
     overflow: auto;
+    display: inline-block;
 }
 
 .choice-advanced {
@@ -85,27 +86,74 @@ light green    #A2D4AF   rgb(103, 192, 138)
     padding-bottom: 20px;
     border-radius: 10px;
     overflow: auto;
+    display: inline-block;
 }
 
 .choice-professionals {
     margin: 0;
     background-color: rgba(103, 192, 138, .8);
-    height: 450px;
+    min-height: 450px;
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 10px;
+    overflow: auto;
+    display: inline-block;
 }
 
 /* ---------------------  Buttons intro ----------------*/
 
-.btn {
-    background-color:rgb(254, 250, 177);
-    border-color: rgb(129, 105, 167);
+.btn-choice-beginners {
+    box-shadow: inset 0px 1px 0px 0px rgb(254, 250, 177);
+	background:linear-gradient(to bottom, #d0db2f 5%, #5c9e06 100%);
+    background-color:#5c9e06;
+    border-color: #5c9e06;
     border-radius: 5px;
     min-width: 100px;
     font-weight: bold;
     color: rgb(39, 39, 39);
     margin-top: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.btn-choice-beginners:hover {
+	background:linear-gradient(to bottom, #5c9e06 5%, #d0db2f 100%);
+	background-color:#5c9e06;
+}
+
+.btn-choice-advanced {
+    box-shadow: inset 0px 1px 0px 0px rgb(122, 155, 208);
+	background:linear-gradient(to bottom, rgb(122, 155, 208) 5%, rgb(36, 76, 141) 100%);
+    background-color:rgb(122, 155, 208);
+    border-color: rgb(36, 76, 141);
+    border-radius: 5px;
+    min-width: 100px;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.btn-choice-advanced:hover {
+	background:linear-gradient(to bottom, rgb(36, 76, 141) 5%, rgb(122, 155, 208) 100%);
+	background-color:rgb(36, 76, 141);
+}
+
+.btn-choice-professionals {
+    box-shadow: inset 0px 1px 0px 0px rgb(103, 192, 138);
+	background:linear-gradient(to bottom, rgb(103, 192, 138) 5%, rgb(58, 119, 82) 100%);
+    background-color:rgb(103, 192, 138);
+    border-color: rgb(58, 119, 82);
+    border-radius: 5px;
+    min-width: 100px;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.btn-choice-professionals:hover {
+	background:linear-gradient(to bottom, rgb(58, 119, 82) 5%, rgb(103, 192, 138) 100%);
+	background-color:rgb(58, 119, 82);
 }
 
 /* ---------------------  Animations ----------------*/
