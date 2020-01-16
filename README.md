@@ -11,7 +11,7 @@ Most of the text and pictures will be my own, and I will reference some videos t
 ## Demo:
 A live demo can be found [here](https://vlad-404.github.io/building-a-skyline/)
 
-
+![Desktop Demo](https://ba77f8c3-04a0-4ed8-972d-24763fe6b0b3.ws-eu01.gitpod.io/mini-browser/workspace/building-a-skyline/assets/images/mockup.JPG "Desktop Demo")
 
 
 ## UX

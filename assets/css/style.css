@@ -267,6 +267,10 @@ light green    #A2D4AF   rgb(103, 192, 138)
     text-decoration: none;
 }
 
+.item-label{
+    display: none;
+}
+
 /* ----------------------------------  Beginners section   ----------------------------*/
 
 #beginners {
@@ -397,13 +401,12 @@ light green    #A2D4AF   rgb(103, 192, 138)
     }
 
     .footer-optimisation {
-      font-size: 0px !important;
-    }
-
-    .footer-optimisation {
       font-size: 20px !important;
     }
 
+    .item-label {
+    display: none;
+    }
 }
 
 /* ---------------   Addittional helping elements- DELETE AFTER PUBLISHING! ----------------------------*/
