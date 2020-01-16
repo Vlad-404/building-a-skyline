@@ -289,23 +289,71 @@ light green    #A2D4AF   rgb(103, 192, 138)
     justify-content: center;
     padding: 0;
     margin: 0;
-    overflow: auto;
+}
+
+.overlay {
+    height: 100vh;
+    width: 100vw;
+    opacity:0.6;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.overlay-beginners {
+    background-color: #FAF7BD
 }
 
 
 /* ----------------------------------  Advanced section   ----------------------------*/
 
 #advanced {
-    background-color: #8FA9D3;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
     margin: 0;
 }
+
+.advanced-image {
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/tram-square.png");
+    background-repeat: repeat-y;
+
+    display: flex;
+    justify-content: center;
+}
+
+.overlay-advanced {
+    background-color: #A9B9DD
+} 
 
 /* ----------------------------------  Pro section   ----------------------------*/
 
 
 #professionals {
-    background-color: #A2D4AF;
     margin: 0;
+}
+
+.pro-image {
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/vikersund.png");
+    background-repeat: repeat-y;
+
+    display: flex;
+    justify-content: center;
+}
+
+.overlay-professionals {
+    background-color: #A2D4AF
 }
 
 /* -------------------------------    Screen optimizations                 ----------------------------*/
