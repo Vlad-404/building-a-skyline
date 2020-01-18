@@ -10,7 +10,7 @@ light yellow   rgba(254, 250, 177, 0.3)
 light green    #A2D4AF   rgb(103, 192, 138)
 
 */
-
+/*  ---------------------------------   General settings ----------------------*/
 * {
     padding: 0;
     margin: 0;
@@ -24,6 +24,8 @@ light green    #A2D4AF   rgb(103, 192, 138)
     width: 100%;
     height: 100%;
 }
+
+/*  ---------------------------------   Header ----------------------*/
 
 #top {
     margin: 0;
@@ -47,30 +49,16 @@ light green    #A2D4AF   rgb(103, 192, 138)
     width: 100%;
     background-image: url("../images/city-monochrome.png");
     background-repeat: repeat-y;
-    -webkit-background-size: cover;
+  /*  -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
     display: flex;
-    justify-content: center;
+    justify-content: center;*/
     padding: 0;
 
     overflow: hidden;
-    position: static;
-}
-
-.intro-selection {
-    height: 100vh;
-    width: 100vw;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    overflow: auto;
 }
 
 #choice-container {
@@ -82,13 +70,14 @@ light green    #A2D4AF   rgb(103, 192, 138)
 
 .choice-subcontainer {
     margin: 0;
-    min-height: 450px;
+    min-height: 480px;
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 10px;
     overflow: auto;
     display: inline-block;
     text-align: center;
+    font-size: 1.2rem;
 }
 
 .choice-subcontainer h4 {
@@ -107,50 +96,6 @@ light green    #A2D4AF   rgb(103, 192, 138)
     background-color: rgba(103, 192, 138, .8);
 }
 
-/*
-.choice-beginners {
-    margin: 0;
-    background-color: rgba(254, 250, 177, 0.8);
-    min-height: 450px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 10px;
-    overflow: auto;
-    display: inline-block;
-}
-
-
-
-.choice-advanced {
-    margin: 0;
-    background-color: rgba(122, 155, 208, 0.8);
-    min-height: 450px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 10px;
-    overflow: auto;
-    display: inline-block;
-}
-
-.choice-advanced h4 {
-    font-family: 'Kanit', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.choice-professionals {
-    margin: 0;
-    background-color: rgba(103, 192, 138, .8);
-    min-height: 450px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 10px;
-    overflow: auto;
-    display: inline-block;
-}
-
-.choice-professionals h4 {
-    font-family: 'Kanit', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-*/
 /* ---------------------  Buttons intro ----------------*/
 
 .btn-choice {
@@ -300,19 +245,6 @@ light green    #A2D4AF   rgb(103, 192, 138)
 
 /* ----------------------------------  Beginners section   ----------------------------*/
 
-#beginners {
-    background-color: #FAF7BD;
-    margin: 0;
-}
-/*
-.opaque-overlay-beginners {
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(254, 250, 177, 0.3);
-}
-*/
 .beginners-image {
     height: 100%;
     width: 100%;
