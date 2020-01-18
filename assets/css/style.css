@@ -23,6 +23,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
 .section-size {
     width: 100%;
     height: 100%;
+    margin: 0;
 }
 
 /*  ---------------------------------   Header ----------------------*/
@@ -244,6 +245,17 @@ light green    #A2D4AF   rgb(103, 192, 138)
     display: none;
 }
 
+/* ----------------------------------  Sections general  ----------------------------*/
+
+.section-title {
+    position: relative;
+    color: #fafafa;
+    top: 20px;
+    text-indent: 2rem;
+    width: 100%;
+    height: 2rem;
+}
+
 /* ----------------------------------  Beginners section   ----------------------------*/
 
 .beginners-image {
@@ -258,7 +270,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
 
 #beginners {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     margin: 0;
     padding-top: 15px;
     display: flex;
@@ -271,7 +283,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
 .overlay {
     height: 100vh;
     width: 100vw;
-    opacity:0.6;
+    opacity: 0.6;
     margin: 0;
     display: flex;
     flex-direction: row;
@@ -289,7 +301,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
 
 #advanced {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     padding-top: 15px;
     margin: 0;
     display: flex;
@@ -320,7 +332,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
     padding-top: 15px;
     margin: 0;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     margin: 0;
     display: flex;
     flex-direction: row;
