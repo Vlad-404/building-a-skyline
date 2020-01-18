@@ -88,6 +88,11 @@ light green    #A2D4AF   rgb(103, 192, 138)
     border-radius: 10px;
     overflow: auto;
     display: inline-block;
+    text-align: center;
+}
+
+.choice-subcontainer h4 {
+    font-family: 'Kanit', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .colour-beginners {
@@ -96,6 +101,10 @@ light green    #A2D4AF   rgb(103, 192, 138)
 
 .colour-advanced {
     background-color: rgba(122, 155, 208, 0.8);
+}
+
+.colour-pro {
+    background-color: rgba(103, 192, 138, .8);
 }
 
 /*
@@ -110,9 +119,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
     display: inline-block;
 }
 
-.choice-beginners h4 {
-    font-family: 'Kanit', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
 
 .choice-advanced {
     margin: 0;
@@ -271,7 +278,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
     }
 }
 
-/* ---------------   Footer ----------------------------*/
+/* ---------------   Navbar ----------------------------*/
 
 .footer {
       position: fixed;
