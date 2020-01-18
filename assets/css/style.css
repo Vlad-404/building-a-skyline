@@ -70,7 +70,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
 
 .choice-subcontainer {
     margin: 0;
-    min-height: 480px;
+    min-height: 490px;
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 10px;
@@ -99,6 +99,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
 /* ---------------------  Buttons intro ----------------*/
 
 .btn-choice {
+    position: relative;
     border-radius: 5px;
     min-width: 100px;
     font-weight: bold;
@@ -213,7 +214,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
 
 /* ---------------   Navbar ----------------------------*/
 
-.footer {
+.navbar {
       position: fixed;
       background-color: #212529;
       width: 100%;
@@ -223,7 +224,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
       z-index: 800;
 }
 
-.footer h2 {
+.navbar h2 {
     font-size: 1.5rem;
 }
 
@@ -359,13 +360,17 @@ light green    #A2D4AF   rgb(103, 192, 138)
         border-radius: 0;
     }
 
-    .footer-optimisation {
-      font-size: 20px !important;
-    }
+    .page-header {
+    height: 30%;
+    padding-top: 80px;
+}
 
-    .item-label {
-    display: none;
-    }
+#choice-container {
+    width: 100%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+}
 }
 
 /* ---------------   Addittional helping elements- DELETE AFTER PUBLISHING! ----------------------------*/
