@@ -272,13 +272,6 @@ light green    #A2D4AF   rgb(103, 192, 138)
     margin: 0;
 }
 
-.image-container {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-}
-
 /* ----------------------------------  Beginners section   ----------------------------*/
 
 .beginners-image {
