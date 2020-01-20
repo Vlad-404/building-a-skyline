@@ -20,12 +20,6 @@ light green    #A2D4AF   rgb(103, 192, 138)
     margin: 0;
 }
 
-.section-size {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-}
-
 /*  ---------------------------------   Header ----------------------*/
 
 #top {
@@ -251,24 +245,22 @@ light green    #A2D4AF   rgb(103, 192, 138)
     position: relative;
     color: #fafafa;
     top: 20px;
+    left: 0;
     text-indent: 2rem;
     width: 100%;
-    height: 2rem;
+    height: 4rem;
 }
 
-/* ----------------------------------  Beginners section   ----------------------------*/
-
-.beginners-image {
-    height: 100%;
-    width: 100%;
-    background-image: url("../images/hotel-monochrome.png");
-    background-repeat: repeat-y;
-
-    display: flex;
-    justify-content: center;
+.card-container {
+    width: 48%;
+    height: 90%;
+    float: left;
+    padding: 30px 10px 10px 10px;
+    text-align: justify;
+    margin: 0 10px 0 5px;
 }
 
-#beginners {
+.section-container {
     height: 100vh;
     width: 100%;
     margin: 0;
@@ -280,6 +272,20 @@ light green    #A2D4AF   rgb(103, 192, 138)
     margin: 0;
 }
 
+.image-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* ----------------------------------  Beginners section   ----------------------------*/
+
+.beginners-image {
+    background-image: url("../images/hotel-monochrome.png");
+    background-repeat: repeat-y;
+}
+/*
 .overlay {
     height: 100vh;
     width: 100vw;
@@ -295,66 +301,26 @@ light green    #A2D4AF   rgb(103, 192, 138)
 .overlay-beginners {
     background-color: #FAF7BD
 }
-
+*/
 
 /* ----------------------------------  Advanced section   ----------------------------*/
 
-#advanced {
-    height: 100vh;
-    width: 100%;
-    padding-top: 15px;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-}
-
 .advanced-image {
-    height: 100%;
-    width: 100%;
-    background-image: url("../images/tram-square.png");
+    background-image: url("../images/vikersund.png");
     background-repeat: repeat-y;
-
-    display: flex;
-    justify-content: center;
 }
-
-.overlay-advanced {
-    background-color: #A9B9DD
-} 
 
 /* ----------------------------------  Pro section   ----------------------------*/
 
 
-#professionals {
-    padding-top: 15px;
-    margin: 0;
-    height: 100vh;
-    width: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-}
-
 .pro-image {
-    height: 100%;
-    width: 100%;
-    background-image: url("../images/vikersund.png");
+    background-image: url("../images/tram-square.png");
     background-repeat: repeat-y;
-
-    display: flex;
-    justify-content: center;
 }
 
-.overlay-professionals {
-    background-color: #A2D4AF
+.bottom-margin {
+    margin-bottom: 65px;
 }
-
 /* -------------------------------    Screen optimizations                 ----------------------------*/
 
 @media screen and (max-width: 768px) {
@@ -383,6 +349,27 @@ light green    #A2D4AF   rgb(103, 192, 138)
     justify-content: center;
     align-items: center;
 }
+
+.overlay {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.6;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.card-container {
+    width: 100%;
+    clear: both;
+    padding: 10px;
+    margin: 20px 0 0 0;
+    text-align: justify;
+}
+
 }
 
 /* ---------------   Addittional helping elements- DELETE AFTER PUBLISHING! ----------------------------*/
