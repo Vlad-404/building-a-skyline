@@ -241,6 +241,10 @@ light green    #A2D4AF   rgb(103, 192, 138)
 
 /* ----------------------------------  Sections general  ----------------------------*/
 
+.image-container {
+    justify-content: space-evenly;
+}
+
 .section-title {
     position: relative;
     color: #fafafa;
@@ -258,6 +262,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
     padding: 30px 10px 10px 10px;
     text-align: justify;
     margin: 0 10px 0 5px;
+    border-radius: 10px;
 }
 
 .section-container {
@@ -269,7 +274,6 @@ light green    #A2D4AF   rgb(103, 192, 138)
     flex-direction: row;
     justify-content: center;
     padding: 0;
-    margin: 0;
 }
 
 /* ----------------------------------  Beginners section   ----------------------------*/
@@ -278,23 +282,6 @@ light green    #A2D4AF   rgb(103, 192, 138)
     background-image: url("../images/hotel-monochrome.png");
     background-repeat: repeat-y;
 }
-/*
-.overlay {
-    height: 100vh;
-    width: 100vw;
-    opacity: 0.6;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-}
-
-.overlay-beginners {
-    background-color: #FAF7BD
-}
-*/
 
 /* ----------------------------------  Advanced section   ----------------------------*/
 
@@ -334,26 +321,14 @@ light green    #A2D4AF   rgb(103, 192, 138)
     .page-header {
     height: 30%;
     padding-top: 80px;
-}
+    }
 
 #choice-container {
     width: 100%;
     height: 70%;
     justify-content: center;
     align-items: center;
-}
-
-.overlay {
-    height: 100vh;
-    width: 100%;
-    opacity: 0.6;
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-}
+    }
 
 .card-container {
     width: 100%;
@@ -361,6 +336,22 @@ light green    #A2D4AF   rgb(103, 192, 138)
     padding: 10px;
     margin: 20px 0 0 0;
     text-align: justify;
+    border-radius: 0;
+    }
+
+.section-container {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    }
+
+.image-container {
+    display: flexbox;
 }
 
 }
