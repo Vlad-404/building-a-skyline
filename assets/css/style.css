@@ -338,6 +338,25 @@ light green    #A2D4AF   rgb(103, 192, 138)
     margin-left: 0 0 15px 15px;
 }
 
+#purchase{
+    justify-content: space-evenly;
+}
+
+.buy {
+    height: 80%;
+    width: 100%;
+}
+
+.buy-caption {
+    width: 160px;
+    height: 100px;
+    text-align: center;
+}
+
+.buy-caption a {
+    color: #373737;
+}
+
 /* ----------------------------------  Advanced section   ----------------------------*/
 
 .advanced-image {
