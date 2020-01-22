@@ -20,6 +20,10 @@ light green    #A2D4AF   rgb(103, 192, 138)
     margin: 0;
 }
 
+.no-text-decoration {
+    text-decoration: none !important;
+}
+
 /*  ---------------------------------   Header ----------------------*/
 
 #top {
@@ -276,11 +280,30 @@ light green    #A2D4AF   rgb(103, 192, 138)
     padding: 0;
 }
 
+.even-distribution {
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
 /* ----------------------------------  Beginners section   ----------------------------*/
 
 .beginners-image {
     background-image: url("../images/hotel-monochrome.png");
     background-repeat: repeat-y;
+}
+
+.how-to-start {
+    height: auto;
+    width: 45%;
+    float: right;
+    margin: 0 0 15px 15px;
+}
+
+.specs {
+    flex-direction: row;
+    text-justify: left;
+    width: 45%;
+    height: auto;
 }
 
 /* ----------------------------------  Advanced section   ----------------------------*/
