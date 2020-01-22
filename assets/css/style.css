@@ -282,7 +282,10 @@ light green    #A2D4AF   rgb(103, 192, 138)
 
 .even-distribution {
     flex-direction: row;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    align-items: flex-start;
+    display: flex;
+    align-items: flex-start;
 }
 
 /* ----------------------------------  Beginners section   ----------------------------*/
@@ -300,10 +303,31 @@ light green    #A2D4AF   rgb(103, 192, 138)
 }
 
 .specs {
-    flex-direction: row;
     text-justify: left;
-    width: 45%;
+    width: 48%;
     height: auto;
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 0.8rem;
+    padding: 10px;
+
+    border: 0 0 #ce8634;
+    background-color: #ce8634;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.no-decoration {
+    list-style-type: none;
+}
+
+.logos {
+    color: rgb(37, 37, 37);
+}
+
+.other-platforms {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 /* ----------------------------------  Advanced section   ----------------------------*/
