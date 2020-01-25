@@ -289,11 +289,33 @@ light green    #A2D4AF   rgb(103, 192, 138)
     align-items: flex-start;
 }
 
+.tutorial-images {
+    top: 0;
+    width: 20%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: -15px;
+    text-align: center;
+    color: #373737;
+}
+
 .caption-right {
-    width: 35%;
-    height: auto;
     float: right;
-    text-justify: center;
+    margin-left: 10px;
+}
+
+.caption-left {
+    float: left;
+    margin-right: 10px;
+}
+
+.p-font-larger {
+    font-size: 1.2rem;
+}
+
+.tips-container {
+    margin: 10px 0 10px 0;
 }
 
 /* ----------------------------------  Beginners section   ----------------------------*/
@@ -340,9 +362,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
 
 .how-to-start {
     height: auto;
-    width: 40%;
-    float: right;
-    margin-left: 0 0 15px 15px;
+    width: 100%;
 }
 
 #purchase{
@@ -362,6 +382,17 @@ light green    #A2D4AF   rgb(103, 192, 138)
 
 .buy-caption a {
     color: #373737;
+}
+
+.tips {
+    position: relative;
+    height: 200px;
+}
+
+.tips-right {
+    position: relative;
+    min-height: 200px;
+    text-align: right;
 }
 
 /* ----------------------------------  Advanced section   ----------------------------*/
@@ -455,6 +486,10 @@ light green    #A2D4AF   rgb(103, 192, 138)
         background-color: #ce8634;
         box-shadow: none;
     }
+
+    .p-font-larger {
+    font-size: 1rem;
+}
 
 }
 
