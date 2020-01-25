@@ -22,6 +22,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
 
 .no-text-decoration {
     text-decoration: none !important;
+    color: #373737;
 }
 
 /*  ---------------------------------   Header ----------------------*/
@@ -289,33 +290,9 @@ light green    #A2D4AF   rgb(103, 192, 138)
     align-items: flex-start;
 }
 
-.tutorial-images {
-    top: 0;
-    width: 20%;
-    height: 100%;
-    position: relative;
-    margin-bottom: 0;
-    padding-bottom: -15px;
-    text-align: center;
-    color: #373737;
-}
 
-.caption-right {
-    float: right;
-    margin-left: 10px;
-}
-
-.caption-left {
-    float: left;
-    margin-right: 10px;
-}
-
-.p-font-larger {
+.font-larger {
     font-size: 1.2rem;
-}
-
-.tips-container {
-    margin: 10px 0 10px 0;
 }
 
 /* ----------------------------------  Beginners section   ----------------------------*/
@@ -360,11 +337,6 @@ light green    #A2D4AF   rgb(103, 192, 138)
     align-items: center;
 }
 
-.how-to-start {
-    height: auto;
-    width: 100%;
-}
-
 #purchase{
     justify-content: space-evenly;
 }
@@ -384,15 +356,60 @@ light green    #A2D4AF   rgb(103, 192, 138)
     color: #373737;
 }
 
+/* ---------------------------right side--------------------*/
+
+
 .tips {
+    min-height: 120px;
     position: relative;
-    height: 200px;
 }
 
-.tips-right {
-    position: relative;
-    min-height: 200px;
-    text-align: right;
+.tips-images {
+    height: 120px;
+    width: 30%;
+
+    background-repeat:no-repeat;
+    background-size:contain;
+
+    text-align: center;
+    color: #373737;
+}
+
+#start-image {
+    height: 120px;
+    width: 30%;
+
+    background: url("../images/how-to-start.JPG");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+#distrita-image {
+    height: 120px;
+    width: 30%;
+
+    background: url("../images/distrita-start.JPG");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+#wiki-image {
+    height: 120px;
+    width: 30%;
+
+    background: url("../images/wiki.png");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+.caption-right {
+    float: right;
+    margin-left: 10px;
+}
+
+.caption-left {
+    float: left;
+    margin-right: 10px;
 }
 
 /* ----------------------------------  Advanced section   ----------------------------*/
