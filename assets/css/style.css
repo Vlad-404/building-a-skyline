@@ -289,6 +289,13 @@ light green    #A2D4AF   rgb(103, 192, 138)
     align-items: flex-start;
 }
 
+.caption-right {
+    width: 35%;
+    height: auto;
+    float: right;
+    text-justify: center;
+}
+
 /* ----------------------------------  Beginners section   ----------------------------*/
 
 .beginners-image {
