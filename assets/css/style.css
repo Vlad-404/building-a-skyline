@@ -390,6 +390,27 @@ light green    #A2D4AF   rgb(103, 192, 138)
     background-size: 100% 100%;
 }
 
+#playlist-image {
+    height: 120px;
+    width: 30%;
+
+    background: url("../images/tutorial-playlist.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;    
+}
+
+.tutorial-title-left {
+    font-family: 'Kanit', 'Segoe', 'Verdana', 'Sans-serif';
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.tutorial-title-right {
+    font-family: 'Kanit', 'Segoe', 'Verdana', 'Sans-serif';
+    text-align: left;
+    text-transform: uppercase;
+}
+
 .caption-right {
     float: right;
     margin-left: 10px;
