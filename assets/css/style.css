@@ -294,13 +294,35 @@ light green    #A2D4AF   rgb(103, 192, 138)
     align-items: flex-start;
 }
 
+.specs {
+    text-justify: left;
+    width: 48%;
+    height: auto;
+    min-height: 220px;
+    display: inline-block;
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
+.specs-beginner {
+    border: 0 0 #ce8634;
+    background-color: #ce8634;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.specs-advanced {
+    width: 100%;
+    border: 0 0 #6b6cd4;
+    background-color: #6e70d6;
+    box-shadow: 5px 5px 5px grey;
+}
 
 .font-larger {
     font-size: 1.1rem;
 }
 
-.black-line {
-    color: #373737;
+.hr-black {
+    color: #373737!important;
 }
 
 /* ----------------------------------  Beginners section   ----------------------------*/
@@ -317,19 +339,6 @@ light green    #A2D4AF   rgb(103, 192, 138)
     margin-left: 15px;
 }
 
-.specs {
-    text-justify: left;
-    width: 48%;
-    height: auto;
-    min-height: 220px;
-    display: inline-block;
-    font-size: 0.8rem;
-    padding: 10px;
-
-    border: 0 0 #ce8634;
-    background-color: #ce8634;
-    box-shadow: 5px 5px 5px grey;
-}
 
 .no-decoration {
     list-style-type: none;
@@ -436,6 +445,36 @@ light green    #A2D4AF   rgb(103, 192, 138)
 .advanced-image {
     background-image: url("../images/vikersund.png");
     background-repeat: repeat-y;
+}
+
+.btn-rci {
+    border-radius: 5px;
+    color: #373737;
+    font-family: 'Kanit', 'SegoeUI', sans-serif;
+}
+
+.btn-rci:hover {
+    color:#fafafa;
+}
+
+.btn-residential {
+    /*border: 1px solid #1b4d21;*/
+    background-color: #318a3d;
+}
+
+.btn-commercial {
+    /*border: 1px solid #1c1944; */
+    background-color: #5e58b4;
+}
+
+.btn-industry {
+    /*border: 1px solid #61451b; */
+    background-color: #ad7b2f;
+}
+
+.btn-office {
+    /*border: 1px solid #2c6c70;*/
+    background-color: #44a8af;
 }
 
 /* ----------------------------------  Pro section   ----------------------------*/
