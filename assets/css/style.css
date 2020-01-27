@@ -248,6 +248,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
 
 .image-container {
     justify-content: space-evenly;
+    height: auto;
 }
 
 .section-title {
@@ -296,6 +297,10 @@ light green    #A2D4AF   rgb(103, 192, 138)
 
 .font-larger {
     font-size: 1.1rem;
+}
+
+.black-line {
+    color: #373737;
 }
 
 /* ----------------------------------  Beginners section   ----------------------------*/
@@ -446,6 +451,48 @@ light green    #A2D4AF   rgb(103, 192, 138)
 }
 /* -------------------------------    Screen optimizations                 ----------------------------*/
 
+@media screen and (max-width: 1713px) {
+
+    .section-container {
+        height: auto;
+        width: 100%;
+        margin: 0;
+        padding-top: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0;
+}
+
+}
+
+
+
+@media screen and (max-width: 1140px) {
+
+    .card-container {
+        width: 100%;
+        height: auto;
+        clear: both;
+        padding: 10px;
+        margin: 20px 0 0 0;
+        text-align: justify;
+        border-radius: 0;
+    }
+
+    .section-container {
+        height: auto;
+        width: 100%;
+        margin: 0;
+        padding-top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+
+}
+
 @media screen and (max-width: 768px) {
 
     .choice-beginners {
@@ -478,6 +525,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
 
     .card-container {
         width: 100%;
+        height: auto;
         clear: both;
         padding: 10px;
         margin: 20px 0 0 0;
