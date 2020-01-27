@@ -361,18 +361,6 @@ light green    #A2D4AF   rgb(103, 192, 138)
 
 .tips {
     min-height: 120px;
-    position: relative;
-}
-
-.tips-images {
-    height: 120px;
-    width: 30%;
-
-    background-repeat:no-repeat;
-    background-size:contain;
-
-    text-align: center;
-    color: #373737;
 }
 
 #start-image {
