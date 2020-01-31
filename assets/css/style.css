@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|Kanit:800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Kanit:800|Lato|Source+Sans+Pro&display=swap');
 
 /* -------------------    Colours used   --------
 
@@ -14,6 +14,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
 * {
     padding: 0;
     margin: 0;
+    font-family: "Source Sans Pro", "SegoeUI", sans-serif;
 }
 
 .row {
@@ -275,6 +276,10 @@ light green    #A2D4AF   rgb(103, 192, 138)
     border-radius: 10px;
 }
 
+.card-container h4 {
+    font-family: "Lato", "Source Sans Pro", "SegoeUI", sans-serif;
+}
+
 .section-container {
     height: 100vh;
     width: 100%;
@@ -489,8 +494,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
 }
 
 #mods {
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  vertical-align: top;
+  font-family: "Source Sans Pro", "Lato", sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
@@ -501,9 +505,28 @@ light green    #A2D4AF   rgb(103, 192, 138)
   vertical-align: top;
 }
 
-#mods tr:nth-child(even){background-color: #859FC9;}
+td {
+    overflow: hidden;
+}
+td a {
+    display: block;
+    margin: -10em;
+    padding: 10em;
+}
 
-#mods tr:hover {background-color: #ddd;}
+td:first-child { 
+    font-family: "Lato", "SegoeUI", sans-serif!important;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#mods tr:nth-child(even){background-color: rgb(156, 178, 216);}
+
+#mods tr:nth-child(odd){background-color: rgba(122, 155, 208);}
+
+#mods tr:hover {background-color: rgba(230, 230, 230, 0.8);}
 
 #mods th {
   padding-top: 12px;
@@ -513,9 +536,6 @@ light green    #A2D4AF   rgb(103, 192, 138)
   color: #373737;
 }
 
-.width-25{
-    width: 25%;
-}
 
 /* ----------------------------------  Pro section   ----------------------------*/
 
