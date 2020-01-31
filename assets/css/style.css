@@ -477,6 +477,46 @@ light green    #A2D4AF   rgb(103, 192, 138)
     background-color: #44a8af;
 }
 
+/*------------ RIght side ---------*/
+
+#workshop-image {
+    height: 120px;
+    width: 30%;
+
+    background: url("../images/workshop.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+#mods {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  vertical-align: top;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#mods td, #mods th {
+  border: 1px solid rgb(23, 23, 51);
+  padding: 8px;
+  vertical-align: top;
+}
+
+#mods tr:nth-child(even){background-color: #859FC9;}
+
+#mods tr:hover {background-color: #ddd;}
+
+#mods th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(109, 132, 172);
+  color: #373737;
+}
+
+.width-25{
+    width: 25%;
+}
+
 /* ----------------------------------  Pro section   ----------------------------*/
 
 
