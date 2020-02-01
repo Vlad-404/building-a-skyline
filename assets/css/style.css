@@ -548,6 +548,34 @@ td:first-child {
 .bottom-margin {
     margin-bottom: 65px;
 }
+
+#visuals-image {
+    height: 120px;
+    width: 30%;
+
+    background: url("../images/visuals.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#detailing-image {
+    height: 120px;
+    width: 30%;
+
+    background: url("../images/detailing-mods.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#mods-playlist {
+    height: 120px;
+    width: 30%;
+
+    background: url("../images/mods-playlist.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 /* -------------------------------    Screen optimizations                 ----------------------------*/
 
 @media screen and (max-width: 1713px) {
