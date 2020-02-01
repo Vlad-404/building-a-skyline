@@ -482,7 +482,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
     background-color: #44a8af;
 }
 
-/*------------ RIght side ---------*/
+/*------------ Right side ---------*/
 
 #workshop-image {
     height: 120px;
@@ -515,7 +515,7 @@ td a {
 }
 
 td:first-child { 
-    font-family: "Lato", "SegoeUI", sans-serif!important;
+    font-family: 'Lato', 'Source Sans Pro', sans-serif;
     font-size: 1rem;
     font-weight: bold;
     text-align: left;
