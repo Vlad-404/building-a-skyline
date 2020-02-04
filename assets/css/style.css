@@ -585,6 +585,42 @@ td:first-child {
     background-size: 100% 100%;
 }
 
+#content-creators {
+    height: 120px;
+    width: 30%;
+
+    background: url("../images/content-creators.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#ted-image {
+    height: 120px;
+    width: 30%;
+
+    background: url("../images/ted.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#walkability {
+    height: 120px;
+    width: 30%;
+
+    background: url("../images/walkability.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#stockholm {
+    height: 120px;
+    width: 30%;
+
+    background: url("../images/stockholm.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 /* -------------------------------    Screen optimizations                 ----------------------------*/
 
 @media screen and (max-width: 1713px) {
