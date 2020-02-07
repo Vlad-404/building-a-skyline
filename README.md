@@ -44,17 +44,31 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ## Features
 ---
+
+Simplicity was the basic idea behind this project and that was proven to be difficult, as this game has a lot of content, large community and is limited by peoples imagination.
+ That's why I have 4 sections:
+ * Intro page
+ * Beginners section
+ * Advanced section and
+ * Pro section
+  
+### Existing Features
+
+Each section is dedicated to users with different level of knowledge while the pro section might be usefull to even professionals such as city planners. Accordingly to these sections, each interest group has links that they can benefit from:
+
+**Intro section** is designed as simple as possible: pick your level of knowledge and follow the links. Also, during the development of this page, I found very usefull navbar with search function integrated into it. If people are looking for specific thing, that's where they can reffer to, right at the intro page.
+
+**Beginners** section was created for users who want to buy the game and ones who just did that, but don't know where to go next. In this part, they will be able to see if they can play the game on their console or is their computer strong enough to run the game. Also, there are links to very basics like terminology in the game and some video tutorials.
+
+**Advanced** section is for the people who have some experience with the game and want to know how to make their ideas into reality. Therefore, there are links to basic map making, and traffic, links to workshop so users can expand the abilities of the game with most used mods which is most often asked question in any group and/or forum.
+
+**Pro** section is for people who know how to handle all of the game's tools including mods, but want to make their cities look more realistic. That's why I added some mods that are used late in the game. This will enable users to have more detailed cities with better looking visuals, and a comprehensive guide to map making. This is also where I added links to content creators for the game, added videos and playlists which will relate this game to the real world and it's application. Maybe even intrigues some visitors to start making mods and assets for the game.
+
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
-### Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### Features Left to Implement
-Another feature idea
+
+After this project is submitted, there are plans to re-use it to make a portal after I gain enough knowledge in web programming(and have time) to do it. Basically, this project will be a base on which I will continue adding content, untill all or most of the content is my own. But, as I said, if my time will allow me.
 
 ## Technologies Used
 ---
