@@ -37,13 +37,15 @@ As for the last one, these are the quotes from Steam game distribution service, 
 
 *"Best city builder I have ever played. This game is like the fairly new Sim City but with alot more put into it."* by **GSovereign**
 
+All the preparations for this page were used from different sources: 
+* I used classic "_pen and paper_" method to give the page it's rough outline,
+* tested some of the designs with Balsamiq
+* made a poll in Skylines group on Facebook to see what people are most interested in. Unfortunatelly, group is private and I can't leave a link to it.
+* browsed different pages like Facebook, Reddit, Discord groups to see targeted audience biggest interests
 
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
+There was also an idea to have a section dedicated to traffic in this game, as people expressed most interest in this. Unfortunatelly, this will require another section on this page for which I won't have enough time, so I left this for future releases.
 ## Features
----
 
 Simplicity was the basic idea behind this project and that was proven to be difficult, as this game has a lot of content, large community and is limited by peoples imagination.
  That's why I have 4 sections:
@@ -70,8 +72,9 @@ In this section, you should go over the different parts of your project, and des
 
 After this project is submitted, there are plans to re-use it to make a portal after I gain enough knowledge in web programming(and have time) to do it. Basically, this project will be a base on which I will continue adding content, untill all or most of the content is my own. But, as I said, if my time will allow me.
 
+As mentioned before, people expressed most interest in traffic in this game. However, due to lack of time, I decided to leave this for future releases as it has a lot of ground to cover and cannot be explained in just a couple of links.
+
 ## Technologies Used
----
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 JQuery
