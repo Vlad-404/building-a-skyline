@@ -11,10 +11,16 @@ light green    #A2D4AF   rgb(103, 192, 138)
 
 */
 /*  ---------------------------------   General settings ----------------------*/
-* {
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
     padding: 0;
     margin: 0;
-    font-family: "Source Sans Pro", "SegoeUI", sans-serif;
+    font-family: "Source Sans Pro", "Lato", sans-serif;
+    font-size: 1rem;
 }
 
 .row {
@@ -71,7 +77,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
 
 .choice-subcontainer {
     margin: 0;
-    min-height: 490px;
+    min-height: 495px;
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 10px;
@@ -105,7 +111,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
     min-width: 100px;
     font-weight: bold;
     color: rgb(39, 39, 39);
-    margin-top: 10px;
+    margin-bottom: 10px;
     box-shadow: 5px 5px 5px grey;
 }
 
@@ -117,7 +123,6 @@ light green    #A2D4AF   rgb(103, 192, 138)
 
 .btn-choice-beginners:hover {
 	background:linear-gradient(to bottom, #5c9e06 5%, #d0db2f 100%);
-	background-color:#5c9e06;
 }
 
 .btn-choice-advanced {
@@ -128,7 +133,6 @@ light green    #A2D4AF   rgb(103, 192, 138)
 
 .btn-choice-advanced:hover {
 	background:linear-gradient(to bottom, rgb(36, 76, 141) 5%, rgb(122, 155, 208) 100%);
-	background-color:rgb(36, 76, 141);
 }
 
 .btn-choice-professionals {
@@ -139,33 +143,32 @@ light green    #A2D4AF   rgb(103, 192, 138)
 
 .btn-choice-professionals:hover {
 	background:linear-gradient(to bottom, rgb(58, 119, 82) 5%, rgb(103, 192, 138) 100%);
-	background-color:rgb(58, 119, 82);
 }
 
 /* ---------------------  Animations ----------------*/
 
-.fade-in-2 {
-  animation: fadeIn ease-in-out 2s;
-  -webkit-animation: fadeIn ease-in-out 2s;
-  -moz-animation: fadeIn ease-in-out 2s;
-  -o-animation: fadeIn ease-in-out 2s;
-  -ms-animation: fadeIn ease-in-out 2s;
+.fade-in-1 {
+  animation: fadeIn ease-in-out 1.5s;
+  -webkit-animation: fadeIn ease-in-out 1.5s;
+  -moz-animation: fadeIn ease-in-out 1.5s;
+  -o-animation: fadeIn ease-in-out 1.5s;
+  -ms-animation: fadeIn ease-in-out 1.5s;
 }
 
-.fade-in-4 {
-  animation: fadeIn ease-in-out 4s;
-  -webkit-animation: fadeIn ease-in-out 4s;
-  -moz-animation: fadeIn ease-in-out 4s;
-  -o-animation: fadeIn ease-in-out 4s;
-  -ms-animation: fadeIn ease-in-out 4s;
+.fade-in-3 {
+  animation: fadeIn ease-in-out 3s;
+  -webkit-animation: fadeIn ease-in-out 3s;
+  -moz-animation: fadeIn ease-in-out 3s;
+  -o-animation: fadeIn ease-in-out 3s;
+  -ms-animation: fadeIn ease-in-out 3s;
 }
 
-.fade-in-6 {
-  animation: fadeIn ease-in-out 6s;
-  -webkit-animation: fadeIn ease-in-out 6s;
-  -moz-animation: fadeIn ease-in-out 6s;
-  -o-animation: fadeIn ease-in-out 6s;
-  -ms-animation: fadeIn ease-in-out 6s;
+.fade-in-5 {
+  animation: fadeIn ease-in-out 4.5s;
+  -webkit-animation: fadeIn ease-in-out 4.5s;
+  -moz-animation: fadeIn ease-in-out 4.5s;
+  -o-animation: fadeIn ease-in-out 4.5s;
+  -ms-animation: fadeIn ease-in-out 4.5s;
 }
 
 @keyframes fadeIn {

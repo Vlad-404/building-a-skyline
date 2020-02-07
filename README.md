@@ -3,7 +3,7 @@
 Cities: Skylines - game or  a tool? Page intending to help beginners and intrigue professionals.
 
 Idea behind this project was to make a page about game called Cities: Skylines. It is a city building simulation game. 
-I already have a lot of experience with this game and a really helpfull community that is ready to help me out, I decided to make one stop page for relevant links and resources for this game. As much as my time and skill will allow it.
+I already have a lot of experience with this game and a really helpfull community that is ready to help me out, so I decided to make one stop page for relevant links and resources for this game. As much as my time and skill will allow it.
 
 Most of the text and pictures will be my own, and I will reference some videos that are publicly available. I have contacted some of the friends in the community, and they allowed me to use their work as a part of my project. You can find them in *"Credits"* section.
 
@@ -73,6 +73,8 @@ Each section is dedicated to users with different level of knowledge while the p
 After this project is submitted, there are plans to re-use it to make a portal after I gain enough knowledge in web programming(and have time) to do it. Basically, this project will be a base on which I will continue adding content, untill all or most of the content is my own. But, as I said, if my time will allow me.
 
 As mentioned before, people expressed most interest in traffic in this game. However, due to lack of time, I decided to leave this for future releases as it has a lot of ground to cover and cannot be explained in just a couple of links.
+
+Navbar that I used for my page had a search bar integrated which my page would benefit from, but since it requires coding that I haven't learned yet, I decided to leave it for future relases.
 
 ## Technologies Used
 
