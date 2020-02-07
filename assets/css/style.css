@@ -37,7 +37,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
     font-family: 'Kanit', sans-serif;
     bottom: 0;
     text-align: center;
-    font-size: 80px;
+    font-size: 4rem;
 }
 
 .page-header {
@@ -215,7 +215,10 @@ light green    #A2D4AF   rgb(103, 192, 138)
 
 /* ---------------   Navbar ----------------------------*/
 
-
+.navbar-nav a {
+    font-size: 1.5rem;
+    margin: 0 40px;
+}
 
 /* ----------------------------------  Sections general  ----------------------------*/
 
