@@ -68,8 +68,6 @@ Each section is dedicated to users with different level of knowledge while the p
 
 **Pro** section is for people who know how to handle all of the game's tools including mods, but want to make their cities look more realistic. That's why I added some mods that are used late in the game. This will enable users to have more detailed cities with better looking visuals, and a comprehensive guide to map making. This is also where I added links to content creators for the game, added videos and playlists which will relate this game to the real world and it's application. Maybe even intrigues some visitors to start making mods and assets for the game.
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
 ### Features Left to Implement
 
 After this project is submitted, there are plans to re-use it to make a portal after I gain enough knowledge in web programming(and have time) to do it. Basically, this project will be a base on which I will continue adding content, untill all or most of the content is my own. But, as I said, if my time will allow me.
@@ -90,7 +88,7 @@ Tools used building this page consist of:
 
 **[Font Awesome](https://fontawesome.com/)** and **[Icon Finder](https://www.iconfinder.com/)** - for custom icons
 
-**[w3schools](https://www.w3schools.com/)** knowledge base on how to make certain element
+**[w3schools](https://www.w3schools.com/)** knowledge(or lack of) base on how to make certain element
 
 **[StackOverflow](https://stackoverflow.com/)** - to figure out why something isn't working
 
