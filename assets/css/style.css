@@ -275,7 +275,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
 }
 
 .specs {
-    text-justify: left;
+    text-align: left;
     width: 48%;
     height: auto;
     min-height: 220px;
@@ -495,6 +495,7 @@ td:first-child {
     font-weight: bold;
     text-align: left;
     text-transform: uppercase;
+    width: 25%;
 }
 
 #mods tr:nth-child(even){background-color: rgb(156, 178, 216);}

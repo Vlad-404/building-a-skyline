@@ -88,15 +88,15 @@ Tools used building this page consist of:
 
 **[Font Awesome](https://fontawesome.com/)** and **[Icon Finder](https://www.iconfinder.com/)** - for custom icons
 
-**[w3schools](https://www.w3schools.com/)** knowledge(or lack of) base on how to make certain element
+**[w3schools](https://www.w3schools.com/)** - knowledge(or lack of) base on how to make certain element
 
 **[StackOverflow](https://stackoverflow.com/)** - to figure out why something isn't working
 
-**[Github](https://github.com/)** and **[Gitpod](https://www.gitpod.io/)** to build and host the page
+**[Github](https://github.com/)** and **[Gitpod](https://www.gitpod.io/)** - to build and host the page
 
-**[Repl.it](https://repl.it/)** to re-use the code I practiced with
+**[Repl.it](https://repl.it/)** - to re-use the code I practiced with
 
-**[Notepad++](https://notepad-plus-plus.org/downloads/)** to backup the page locally
+**[Notepad++](https://notepad-plus-plus.org/downloads/)** - to backup the page locally
 
 
 ## Testing
