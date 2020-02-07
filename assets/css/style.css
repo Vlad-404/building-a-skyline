@@ -215,7 +215,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
 
 /* ---------------   Navbar ----------------------------*/
 
-.navbar {
+/* .navbar {
       position: fixed;
       background-color: #212529;
       width: 100%;
@@ -243,7 +243,7 @@ light green    #A2D4AF   rgb(103, 192, 138)
 
 .item-label{
     display: none;
-}
+} */
 
 /* ----------------------------------  Sections general  ----------------------------*/
 
@@ -546,7 +546,7 @@ td:first-child {
 }
 
 .bottom-margin {
-    margin-bottom: 65px;
+    margin-bottom: 55px;
 }
 
 #visuals-image {
@@ -740,7 +740,11 @@ td:first-child {
 
     .p-font-larger {
     font-size: 1rem;
-}
+    }
+
+    .bottom-margin {
+    margin-bottom: 65px;
+    }
 
 }
 
