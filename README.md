@@ -33,18 +33,20 @@ Secondly, the fact that there are very few tools that can simulate what Skylines
 
 As for the last one, these are the quotes from Steam game distribution service, which is currently the best platform for this purchase:
 
-*"Through deep and rewarding gameplay, Colossal Order’s new simulation fills the increasingly noticeable void in the genre. Where others have failed, Cities: Skyline excels and delivers the new gold standard of modern city-builders."* 8.8/10 **GameInformer**
+>*"Through deep and rewarding gameplay, Colossal Order’s new simulation fills the increasingly noticeable void in the genre. Where others have failed, Cities: Skyline excels and delivers the new gold standard of modern city-builders."* 8.8/10 **GameInformer**
 
-*"Best city builder I have ever played. This game is like the fairly new Sim City but with alot more put into it."* by **GSovereign**
+>*"Best city builder I have ever played. This game is like the fairly new Sim City but with alot more put into it."* by **GSovereign**
 
 All the preparations for this page were used from different sources: 
 * I used classic "_pen and paper_" method to give the page it's rough outline,
 * tested some of the designs with Balsamiq
 * made a poll in Skylines group on Facebook to see what people are most interested in. Unfortunatelly, group is private and I can't leave a link to it.
 * browsed different pages like Facebook, Reddit, Discord groups to see targeted audience biggest interests
+* browsed official Cities: Skylines page and Youtube channel for most appropriate info which is supported by game developer
 
 
 There was also an idea to have a section dedicated to traffic in this game, as people expressed most interest in this. Unfortunatelly, this will require another section on this page for which I won't have enough time, so I left this for future releases.
+
 ## Features
 
 Simplicity was the basic idea behind this project and that was proven to be difficult, as this game has a lot of content, large community and is limited by peoples imagination.
@@ -58,7 +60,7 @@ Simplicity was the basic idea behind this project and that was proven to be diff
 
 Each section is dedicated to users with different level of knowledge while the pro section might be usefull to even professionals such as city planners. Accordingly to these sections, each interest group has links that they can benefit from:
 
-**Intro section** is designed as simple as possible: pick your level of knowledge and follow the links. Also, during the development of this page, I found very usefull navbar with search function integrated into it. If people are looking for specific thing, that's where they can reffer to, right at the intro page.
+**Intro section** is designed as simple as possible: pick your level of knowledge and follow the links. Also, during the development of this page, I found very usefull navbar with search function integrated into it. If people are looking for specific thing, that's where they can reffer to, right at the intro page.REason why this navbar is a the bottom instead of on top is that the toolbar in game is at the bottom of the UI in game. As it has the same colour, old players will be used to it and new ones will get introduced to it.
 
 **Beginners** section was created for users who want to buy the game and ones who just did that, but don't know where to go next. In this part, they will be able to see if they can play the game on their console or is their computer strong enough to run the game. Also, there are links to very basics like terminology in the game and some video tutorials.
 
@@ -75,10 +77,29 @@ After this project is submitted, there are plans to re-use it to make a portal a
 As mentioned before, people expressed most interest in traffic in this game. However, due to lack of time, I decided to leave this for future releases as it has a lot of ground to cover and cannot be explained in just a couple of links.
 
 ## Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
+Tools used building this page consist of:
+
+**HTML** - Used for creating the content and building the basic framework for the page
+
+**CSS** - used for formating, beautifying the page and also for some effects
+
+**JavaScript** - used within bootstrap to create colapsable navbar for smaller screens
+
+**[Bootstrap](https://getbootstrap.com/)** - used this library to simplify, speed up and optimise the page creation and looks of the page
+
+**[Font Awesome](https://fontawesome.com/)** and **[Icon Finder](https://www.iconfinder.com/)** - for custom icons
+
+**[w3schools](https://www.w3schools.com/)** knowledge base on how to make certain element
+
+**[StackOverflow](https://stackoverflow.com/)** - to figure out why something isn't working
+
+**[Github](https://github.com/)** and **[Gitpod](https://www.gitpod.io/)** to build and host the page
+
+**[Repl.it](https://repl.it/)** to re-use the code I practiced with
+
+**[Notepad++](https://notepad-plus-plus.org/downloads/)** to backup the page locally
+
 
 ## Testing
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
