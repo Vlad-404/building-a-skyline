@@ -615,9 +615,12 @@ td:first-child {
     margin-bottom: 55px;
     }
 
+    .navbar-nav a {
+    font-size: 1rem;
+    margin: 0 10px;
 }
 
-
+}
 
 @media screen and (max-width: 1140px) {
 
@@ -647,6 +650,8 @@ td:first-child {
     }
 
 }
+
+@media screen and (max-width: 962px)
 
 @media screen and (max-width: 768px) {
 
