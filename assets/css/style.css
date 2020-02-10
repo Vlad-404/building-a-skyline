@@ -295,6 +295,25 @@ body {
 .font-larger {
     font-size: 1.1rem;
 }
+/*
+.image-links {
+    height: 120px;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+} */
+
+.tutorial-title-left {
+    font-family: 'Kanit', 'Segoe', 'Verdana', 'Sans-serif';
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.tutorial-title-right {
+    font-family: 'Kanit', 'Segoe', 'Verdana', 'Sans-serif';
+    text-align: left;
+    text-transform: uppercase;
+}
 
 /* ----------------------------------  Beginners section   ----------------------------*/
 
@@ -313,6 +332,7 @@ body {
 
 .no-decoration {
     list-style-type: none;
+    padding-inline-start: 0px;
 }
 
 .logos {
@@ -353,51 +373,19 @@ body {
 }
 
 #start-image {
-    height: 120px;
-    width: 30%;
-
     background: url("../images/how-to-start.JPG");
-    background-repeat:no-repeat;
-    background-size: 100% 100%;
 }
 
 #distrita-image {
-    height: 120px;
-    width: 30%;
-
     background: url("../images/distrita-start.JPG");
-    background-repeat:no-repeat;
-    background-size: 100% 100%;
 }
 
 #wiki-image {
-    height: 120px;
-    width: 30%;
-
     background: url("../images/wiki.png");
-    background-repeat:no-repeat;
-    background-size: 100% 100%;
 }
 
 #playlist-image {
-    height: 120px;
-    width: 30%;
-
-    background: url("../images/tutorial-playlist.jpg");
-    background-repeat:no-repeat;
-    background-size: 100% 100%;    
-}
-
-.tutorial-title-left {
-    font-family: 'Kanit', 'Segoe', 'Verdana', 'Sans-serif';
-    text-align: right;
-    text-transform: uppercase;
-}
-
-.tutorial-title-right {
-    font-family: 'Kanit', 'Segoe', 'Verdana', 'Sans-serif';
-    text-align: left;
-    text-transform: uppercase;
+    background: url("../images/tutorial-playlist.jpg");  
 }
 
 .caption-right {
@@ -590,6 +578,14 @@ td:first-child {
     background-size: 100% 100%;
 }
 
+
+.image-links {
+    height: 120px;
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
 /* -------------------------------    Screen optimizations                 ----------------------------*/
 
 @media screen and (max-width: 1713px) {
@@ -623,7 +619,7 @@ td:first-child {
         height: auto;
         clear: both;
         padding: 10px;
-        margin: 20px 0 0 0;
+        margin: 20px 0 30px 0;
         text-align: justify;
         border-radius: 0;
     }
@@ -644,8 +640,6 @@ td:first-child {
     }
 
 }
-
-@media screen and (max-width: 962px)
 
 @media screen and (max-width: 768px) {
 
@@ -724,7 +718,7 @@ td:first-child {
     }
 
     .bottom-margin {
-    margin-bottom: 55px;
+    margin-bottom: 60px;
     }
 
 }
