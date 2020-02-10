@@ -275,9 +275,8 @@ body {
 }
 
 .specs {
-    display: inline-block;
-    width: 48%;
-    min-height: 220px;
+    min-height: 240px;
+    margin: 10px;
     text-align: left;
     padding: 10px;
     box-shadow: 5px 5px 5px #808080;
@@ -324,6 +323,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
 }
 
 #purchase{
@@ -420,6 +420,7 @@ body {
 }
 
 .btn-rci {
+    margin: 0 10px;
     border-radius: 5px;
     color: #373737;
     font-family: 'Kanit', 'SegoeUI', sans-serif;
@@ -711,9 +712,8 @@ td:first-child {
     .specs {
         text-justify: left;
         width: 100%;
-        font-size: 0.8rem;
         padding: 10px;
-        margin-bottom: 10px;
+        margin: 10px;
 
         background-color: #ce8634;
         box-shadow: none;
@@ -727,10 +727,4 @@ td:first-child {
     margin-bottom: 55px;
     }
 
-}
-
-/* ---------------   Addittional helping elements- DELETE AFTER PUBLISHING! ----------------------------*/
-
-.border {
-    border: 2px solid red!important;
 }
