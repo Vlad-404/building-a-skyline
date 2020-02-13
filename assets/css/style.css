@@ -34,7 +34,7 @@ body {
 
 /*   Header */
 
-#top {
+#home {
     margin: 0;
     padding: 0;
 }
@@ -276,17 +276,36 @@ body {
 }
 
 .thumbnails-right {
-    height: auto;
+    max-height: 9rem;
     width: 35%;
+    padding-top: .6rem;
     float: right;
     margin-left: .9rem;
 }
 
 .thumbnails-left {
-    height: auto;
+    max-height: 9rem;
     width: 35%;
+    padding-top: 5px;
     float: left;
     margin-right: .9rem;
+}
+
+.tips {
+    min-height: 7.5rem;
+    margin-bottom: 1.25rem;
+    border-top: 1px solid #808080;
+    padding-top: 5px;
+}
+
+.caption-right {
+    float: right;
+    margin-left: .6rem;
+}
+
+.caption-left {
+    float: left;
+    margin-right: .6rem;
 }
 
 /* Beginners section */
@@ -296,14 +315,6 @@ body {
     background-image: url("../images/hotel-monochrome.png");
     background-repeat: repeat-y;
 }
-
-.skylines-logo {
-    height: auto;
-    width: 35%;
-    float: right;
-    margin-left: .9rem;
-}
-
 
 .no-decoration {
     list-style-type: none;
@@ -338,42 +349,6 @@ body {
 
 .buy-caption a {
     color: #373737;
-}
-
-/* right side */
-
-
-.tips {
-    min-height: 7.5rem;
-    margin-bottom: 1.25rem;
-    border-top: 1px solid #808080;
-    padding-top: 5px;
-}
-
-#start-image {
-    background: url("../images/how-to-start.JPG");
-}
-
-#distrita-image {
-    background: url("../images/distrita-start.JPG");
-}
-
-#wiki-image {
-    background: url("../images/wiki.png");
-}
-
-#playlist-image {
-    background: url("../images/tutorial-playlist.jpg");  
-}
-
-.caption-right {
-    float: right;
-    margin-left: .6rem;
-}
-
-.caption-left {
-    float: left;
-    margin-right: .6rem;
 }
 
 /* Advanced section */
@@ -413,15 +388,6 @@ body {
 }
 
 /* Right side */
-
-#workshop-image {
-    height: 7.5rem;
-    width: 30%;
-
-    background: url("../images/workshop.jpg");
-    background-repeat:no-repeat;
-    background-size: 100% 100%;
-}
 
 #mods {
   font-family: "Source Sans Pro", "Lato", sans-serif;
@@ -478,84 +444,4 @@ td:first-child {
 
 .bottom-margin {
     margin-bottom: 3.4rem;
-}
-
-#visuals-image {
-    height: 7.5rem;
-    width: 30%;
-
-    background: url("../images/visuals.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-#detailing-image {
-    height: 7.5rem;
-    width: 30%;
-
-    background: url("../images/detailing-mods.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-#mods-playlist {
-    height: 7.5rem;
-    width: 30%;
-
-    background: url("../images/mods-playlist.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-#terrain-party {
-    height: 7.5rem;
-    width: 30%;
-
-    background: url("../images/terrain-party.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-#content-creators {
-    height: 7.5rem;
-    width: 30%;
-
-    background: url("../images/content-creators.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-#ted-image {
-    height: 7.5rem;
-    width: 30%;
-
-    background: url("../images/ted.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-#walkability {
-    height: 7.5rem;
-    width: 30%;
-
-    background: url("../images/walkability.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-#stockholm {
-    height: 7.5rem;
-    width: 30%;
-
-    background: url("../images/stockholm.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
-
-
-.image-links {
-    height: 7.5rem;
-    width: 30%;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
 }
