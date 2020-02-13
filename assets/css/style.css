@@ -76,19 +76,19 @@ body {
 }
 
 .choice-subcontainer {
-    margin: 0;
-    min-height: 495px;
+    position: relative;
+    margin: 2rem;
+    min-height: 31rem;
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 10px;
     overflow: auto;
-    display: inline-block;
     text-align: center;
     font-size: 1.2rem;
 }
 
 .choice-subcontainer h4 {
-    font-family: 'Kanit', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Kanit', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .colour-beginners {
@@ -106,12 +106,11 @@ body {
 /* ---------------------  Buttons intro ----------------*/
 
 .btn-choice {
-    position: relative;
     border-radius: 5px;
-    min-width: 100px;
+    min-width: 7rem;
     font-weight: bold;
     color: rgb(39, 39, 39);
-    margin-bottom: 10px;
+    margin-top: 1rem;
     box-shadow: 5px 5px 5px #808080;
 }
 
