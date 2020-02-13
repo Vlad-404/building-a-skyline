@@ -52,27 +52,19 @@ body {
 }
 
 #intro-image {
+    display: flex;
     height: 100%;
     width: 100%;
     background-image: url("../images/city-monochrome.png");
-    background-repeat: repeat-y;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
-    display: flex;
-    justify-content: center;
-    padding: 0;
-
-    overflow: hidden;
 }
 
 #choice-container {
     width: 100%;
-    height: 70%;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
 }
 
 .choice-subcontainer {
@@ -224,9 +216,7 @@ body {
 
 /* ----------------------------------  Sections general  ----------------------------*/
 
-.image-container {
-    justify-content: space-evenly;
-}
+
 
 .section-title {
     position: relative;
@@ -247,8 +237,7 @@ body {
     float: left;
     padding: 30px 10px 10px 10px;
     text-align: justify;
-    margin: 0 10px 0 5px;
-    border-radius: 10px;
+    margin: .8rem;
 }
 
 .card-container h4 {
@@ -256,7 +245,6 @@ body {
 }
 
 .section-container {
-    height: 100vh;
     width: 100%;
     margin: 0;
     padding-top: 15px;
@@ -588,7 +576,7 @@ td:first-child {
 
 /* -------------------------------    Screen optimizations                 ----------------------------*/
 
-@media screen and (max-width: 1713px) {
+/* @media screen and (max-width: 1713px) {
 
     .section-container {
         height: auto;
@@ -604,13 +592,13 @@ td:first-child {
     .bottom-margin {
     margin-bottom: 55px;
     }
-
+*
     .navbar-nav a {
     font-size: 1rem;
     margin: 0 10px;
 }
 
-}
+} 
 
 @media screen and (max-width: 1140px) {
 
@@ -721,4 +709,4 @@ td:first-child {
     margin-bottom: 60px;
     }
 
-}
+} */
