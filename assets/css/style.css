@@ -47,8 +47,8 @@ body {
 }
 
 .page-header {
-    height: 30%;
-    padding-top: 60px;
+    height: 15rem;
+    padding-top: 3.5rem;
 }
 
 #intro-image {
@@ -370,6 +370,7 @@ body {
 
 .tips {
     min-height: 120px;
+    margin-bottom: 20px;
 }
 
 #start-image {
