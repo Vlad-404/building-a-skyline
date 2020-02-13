@@ -10,7 +10,7 @@ light yellow   rgba(254, 250, 177, 0.3)
 light green    #A2D4AF   rgb(103, 192, 138)
 
 */
-/*  ---------------------------------   General settings ----------------------*/
+/*   General settings */
 
 html {
     scroll-behavior: smooth;
@@ -32,7 +32,7 @@ body {
     color: #373737;
 }
 
-/*  ---------------------------------   Header ----------------------*/
+/*   Header */
 
 #top {
     margin: 0;
@@ -71,9 +71,9 @@ body {
     position: relative;
     margin: 2rem;
     min-height: 31rem;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-radius: 10px;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    border-radius: .6rem;
     overflow: auto;
     text-align: center;
     font-size: 1.2rem;
@@ -95,7 +95,7 @@ body {
     background-color: rgba(103, 192, 138, .8);
 }
 
-/* ---------------------  Buttons intro ----------------*/
+/* Buttons header */
 
 .btn-choice {
     border-radius: 5px;
@@ -136,7 +136,7 @@ body {
 	background:linear-gradient(to bottom, rgb(58, 119, 82) 5%, rgb(103, 192, 138) 100%);
 }
 
-/* ---------------------  Animations ----------------*/
+/* Animations */
 
 .fade-in-1 {
   animation: fadeIn ease-in-out 1.5s;
@@ -207,14 +207,14 @@ body {
     }
 }
 
-/* ---------------   Navbar ----------------------------*/
+/*  Navbar */
 
 .navbar-nav a {
     font-size: 1.5rem;
-    margin: 0 40px;
+    margin: 0 2.5rem;
 }
 
-/* ----------------------------------  Sections general  ----------------------------*/
+/* Sections general */
 
 
 
@@ -231,7 +231,7 @@ body {
 }
 
 .card-container {
-    padding: 30px 10px 10px 10px;
+    padding: 1.8rem .6rem .6rem .6rem;
     text-align: justify;
     margin: .8rem;
 }
@@ -242,15 +242,15 @@ body {
 
 .section-container {
     margin: 0;
-    padding-top: 15px;
+    padding-top: 1rem;
     padding: 0;
 }
 
 .specs {
-    min-height: 240px;
-    margin: 10px;
+    min-height: 15rem;
+    margin: .6rem;
     text-align: left;
-    padding: 10px;
+    padding: .6rem;
     box-shadow: 5px 5px 5px #808080;
 }
 
@@ -269,18 +269,18 @@ body {
 }
 
 .tutorial-title-left {
-    font-family: 'Kanit', 'Segoe', 'Verdana', 'Sans-serif';
+    font-family: 'Kanit', 'Source Sans Pro', 'Verdana', 'Sans-serif';
     text-align: right;
     text-transform: uppercase;
 }
 
 .tutorial-title-right {
-    font-family: 'Kanit', 'Segoe', 'Verdana', 'Sans-serif';
+    font-family: 'Kanit', 'Source Sans Pro', 'Verdana', 'Sans-serif';
     text-align: left;
     text-transform: uppercase;
 }
 
-/* ----------------------------------  Beginners section   ----------------------------*/
+/* Beginners section */
 
 .beginners-image {
     background-image: url("../images/hotel-monochrome.png");
@@ -291,13 +291,13 @@ body {
     height: auto;
     width: 35%;
     float: right;
-    margin-left: 15px;
+    margin-left: .9rem;
 }
 
 
 .no-decoration {
     list-style-type: none;
-    padding-inline-start: 0px;
+    padding-inline-start: 0;
 }
 
 .logos {
@@ -321,8 +321,8 @@ body {
 }
 
 .buy-caption {
-    width: 160px;
-    height: 100px;
+    width: 10rem;
+    height: 6.25rem;
     text-align: center;
 }
 
@@ -330,12 +330,12 @@ body {
     color: #373737;
 }
 
-/* ---------------------------right side--------------------*/
+/* right side */
 
 
 .tips {
-    min-height: 120px;
-    margin-bottom: 20px;
+    min-height: 7.5rem;
+    margin-bottom: 1.25rem;
 }
 
 #start-image {
@@ -356,17 +356,17 @@ body {
 
 .caption-right {
     float: right;
-    margin-left: 10px;
+    margin-left: .6rem;
 }
 
 .caption-left {
     float: left;
-    margin-right: 10px;
+    margin-right: .6rem;
 }
 
-/* ----------------------------------  Advanced section   ----------------------------*/
+/* Advanced section */
 
-/* ------------ Left side  ------------*/
+/* Left side */
 
 .advanced-image {
     background-image: url("../images/vikersund.png");
@@ -374,10 +374,10 @@ body {
 }
 
 .btn-rci {
-    margin: 0 10px;
+    margin: 0 .6rem;
     border-radius: 5px;
     color: #373737;
-    font-family: 'Kanit', 'SegoeUI', sans-serif;
+    font-family: 'Kanit', 'source-sans-pro', sans-serif;
 }
 
 .btn-rci:hover {
@@ -385,29 +385,25 @@ body {
 }
 
 .btn-residential {
-    /*border: 1px solid #1b4d21;*/
     background-color: #318a3d;
 }
 
 .btn-commercial {
-    /*border: 1px solid #1c1944; */
     background-color: #5e58b4;
 }
 
 .btn-industry {
-    /*border: 1px solid #61451b; */
     background-color: #ad7b2f;
 }
 
 .btn-office {
-    /*border: 1px solid #2c6c70;*/
     background-color: #44a8af;
 }
 
-/*------------ Right side ---------*/
+/* Right side */
 
 #workshop-image {
-    height: 120px;
+    height: 7.5rem;
     width: 30%;
 
     background: url("../images/workshop.jpg");
@@ -460,7 +456,7 @@ td:first-child {
 }
 
 
-/* ----------------------------------  Pro section   ----------------------------*/
+/* Pro section */
 
 
 .pro-image {
@@ -469,11 +465,11 @@ td:first-child {
 }
 
 .bottom-margin {
-    margin-bottom: 55px;
+    margin-bottom: 3.4rem;
 }
 
 #visuals-image {
-    height: 120px;
+    height: 7.5rem;
     width: 30%;
 
     background: url("../images/visuals.jpg");
@@ -482,7 +478,7 @@ td:first-child {
 }
 
 #detailing-image {
-    height: 120px;
+    height: 7.5rem;
     width: 30%;
 
     background: url("../images/detailing-mods.png");
@@ -491,7 +487,7 @@ td:first-child {
 }
 
 #mods-playlist {
-    height: 120px;
+    height: 7.5rem;
     width: 30%;
 
     background: url("../images/mods-playlist.png");
@@ -500,7 +496,7 @@ td:first-child {
 }
 
 #terrain-party {
-    height: 120px;
+    height: 7.5rem;
     width: 30%;
 
     background: url("../images/terrain-party.png");
@@ -509,7 +505,7 @@ td:first-child {
 }
 
 #content-creators {
-    height: 120px;
+    height: 7.5rem;
     width: 30%;
 
     background: url("../images/content-creators.png");
@@ -518,7 +514,7 @@ td:first-child {
 }
 
 #ted-image {
-    height: 120px;
+    height: 7.5rem;
     width: 30%;
 
     background: url("../images/ted.png");
@@ -527,7 +523,7 @@ td:first-child {
 }
 
 #walkability {
-    height: 120px;
+    height: 7.5rem;
     width: 30%;
 
     background: url("../images/walkability.jpg");
@@ -536,7 +532,7 @@ td:first-child {
 }
 
 #stockholm {
-    height: 120px;
+    height: 7.5rem;
     width: 30%;
 
     background: url("../images/stockholm.jpg");
@@ -546,145 +542,8 @@ td:first-child {
 
 
 .image-links {
-    height: 120px;
+    height: 7.5rem;
     width: 30%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-
-/* -------------------------------    Screen optimizations                 ----------------------------*/
-
-/* @media screen and (max-width: 1713px) {
-
-    .section-container {
-        height: auto;
-        width: 100%;
-        margin: 0;
-        padding-top: 15px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding: 0;
-        }
-
-    .bottom-margin {
-    margin-bottom: 55px;
-    }
-*
-    .navbar-nav a {
-    font-size: 1rem;
-    margin: 0 10px;
-}
-
-} 
-
-@media screen and (max-width: 1140px) {
-
-    .card-container {
-        width: 100%;
-        height: auto;
-        clear: both;
-        padding: 10px;
-        margin: 20px 0 30px 0;
-        text-align: justify;
-        border-radius: 0;
-    }
-
-    .section-container {
-        height: auto;
-        width: 100%;
-        margin: 0;
-        padding-top: 15px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 0;
-    }
-
-    .bottom-margin {
-    margin-bottom: 55px;
-    }
-
-}
-
-@media screen and (max-width: 768px) {
-
-    .choice-beginners {
-        border-radius: 0;
-        width: 100%;
-    }
-
-    .choice-advanced {
-        border-radius: 0;
-    }
-
-    .choice-professionals {
-        border-radius: 0;
-    }
-
-    .page-header {
-        height: 30%;
-        padding-top: 80px;
-    }
-
-    #choice-container {
-        width: 100%;
-        height: 70%;
-        justify-content: center;
-        align-items: center;
-    }
-    .choice-subcontainer {
-        border-radius: 0;
-    }
-
-    .card-container {
-        width: 100%;
-        height: auto;
-        clear: both;
-        padding: 10px;
-        margin: 20px 0 0 0;
-        text-align: justify;
-        border-radius: 0;
-    }
-
-    .section-container {
-        height: auto;
-        width: 100%;
-        margin: 0;
-        padding-top: 15px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 0;
-    }
-
-    .image-container {
-        display: flexbox;
-    }
-
-    .even-distribution {
-        flex-direction: column;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-            }
-
-    .specs {
-        text-justify: left;
-        width: 100%;
-        padding: 10px;
-        margin: 10px;
-
-        background-color: #ce8634;
-        box-shadow: none;
-    }
-
-    .p-font-larger {
-    font-size: 1rem;
-    }
-
-    .bottom-margin {
-    margin-bottom: 60px;
-    }
-
-} */
