@@ -90,6 +90,8 @@ Tools used building this page consist of:
 
 **[Font Awesome](https://fontawesome.com/)** and **[Icon Finder](https://www.iconfinder.com/)** - for custom icons
 
+**[FlatIcon](https://www.flaticon.com/)** and user freepik for the usage of free favicon
+
 **[w3schools](https://www.w3schools.com/)** - knowledge(or lack of) base on how to make certain element
 
 **[StackOverflow](https://stackoverflow.com/)** - to figure out why something isn't working
