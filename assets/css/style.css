@@ -75,7 +75,7 @@ body {
 }
 
 .choice-subcontainer h4 {
-    font-family: 'Kanit', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Kanit', 'Source Sans Pro', Verdana, sans-serif;
 }
 
 .colour-beginners {
@@ -340,8 +340,8 @@ body {
 }
 
 .buy-caption {
-    width: 10rem;
-    height: 6.25rem;
+    width: 160px;
+    height: 100px;
     text-align: center;
 }
 
@@ -441,5 +441,5 @@ td:first-child {
 }
 
 .bottom-margin {
-    margin-bottom: 3.4rem;
+    margin-bottom: 5rem;
 }
