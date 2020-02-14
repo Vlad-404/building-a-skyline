@@ -13,18 +13,46 @@ A live demo can be found [here](https://vlad-404.github.io/building-a-skyline/)
 
 ![Desktop Demo](https://raw.githubusercontent.com/Vlad-404/building-a-skyline/master/assets/images/mockup.JPG "Desktop Demo")
 
+In this short project, I will start with introduction to the game with links to purchase and finish with mutual influence of real life and the game. Since there is a huge gap between a person who is just starting a game and a professional, the site consists of one single scrollable page divided into 5 separate sections, one of them being a navbar that will be visible at all time to ease the navigation. 
+
+This website tries to address the needs of:
+* a beginner who wishes to start the game and find relevant tutorials
+* regular player who wants to know about mods, map making, introduction to traffic and to expand the limits of the game
+* advanced player who wants to know how to make his city look more realistic
+* a professional, like a city planner who can find examples of how game was used to simplify and speed up simulations and visualisations
 
 ## UX
 
-As this is a page a bout a game and a tool, as you can see from the page, my targeted audience will be gamers, enthusiasts and even professionals like city planners and Architects. All of these people are connected with one mutual subject: city planing.
+My targeted audience will be gamers, enthusiasts and even professionals like city planners and Architects. All of these people are connected with one mutual subject: city planing.
 
-In this short project, I will start with introduction to the game with links to purchase and finish with mutual influence of real life and the game. Since there is a huge gap between a person who is just starting a game and a professional, the site consists of one single scrollable page divided into 6 separate sections, one of them being a navbar that will be visible at all time to ease the navigation. 
+This project is the best way to help people learn and achieve progress in this game because:
 
-But, if you want to know more about the technical side, feel free to browse the page.
+* basic tutorials, minimum requirements for pc and platforms available are all in one place (with links)
+* purchasing options are easy accessible
+* there is no single page they can go to. They can search through Google, but having all or most things in one place is very handy
+* you can easily develop your skills as page is divided in three sections. You can find your level and see where you can go next
+* essential mods are at a glance which is the most asked question in any group
+* lots of people are asking how to make their cities more realistic. There's a complete section on that
+* there are examples of mutual influence of real world and this game
+* professionals have an example of city of Stockholm which used Skylines as a platform for development of one of their parts of the city
+
+Client stories:
+
+1. As a new visitor to the page, I want to be able to navigate it easily and find what I want easily
+2. As a new player to Cities: Skylines, I want to know if I can play it on my computer/console
+3. I just bought the game, but I want to know how to make a good start in this game so I don't have lots of issues later
+4. As a new visitor to this page, I want to know what is my skill level and find a relevant article/video
+5. As a entry level player, I want to start with most essential mods so I can expand the limits of the game and build what I want
+6. For experienced players who want to know how can they make their cities more realistic, there are links to advanced mods and tutorials on how to use them
+7. For city planners and Architects who want fast and cheap simulation of their project, there is an example of city of Stockholm
+8. as a returning visitor to this page, I want to be able to learn more about the game and it's mechanics
+
+Most popular topics pool: [Facebook group pool](https://drive.google.com/file/d/1a7LyO0rlAAxObDncjQ4M_wxV4IBSx3Jj/view?usp=sharing)
+
+
 
 My expectation after visiting this page will be that the beginners will want to discover more about the game, and professionals will be intrigued by application of this game as a tool to help them in their simulations in real life situations. Both of these will have enough material to go on with the resources found on this page.
 
-As for user testimonies, you can find plenty of positive reviews for this game. 
 Secondly, the fact that there are very few tools that can simulate what Skylines can and that is:
 * ease of use
 * very accurate simulation (not perfect)
