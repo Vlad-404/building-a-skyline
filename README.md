@@ -47,62 +47,60 @@ Client stories:
 7. For city planners and Architects who want fast and cheap simulation of their project, there is an example of city of Stockholm
 8. as a returning visitor to this page, I want to be able to learn more about the game and it's mechanics
 
-Most popular topics pool: [Facebook group pool](https://drive.google.com/file/d/1a7LyO0rlAAxObDncjQ4M_wxV4IBSx3Jj/view?usp=sharing)
-
-
 
 My expectation after visiting this page will be that the beginners will want to discover more about the game, and professionals will be intrigued by application of this game as a tool to help them in their simulations in real life situations. Both of these will have enough material to go on with the resources found on this page.
 
-Secondly, the fact that there are very few tools that can simulate what Skylines can and that is:
-* ease of use
-* very accurate simulation (not perfect)
-* very realistic presentation
-* low cost 
-
-As for the last one, these are the quotes from Steam game distribution service, which is currently the best platform for this purchase:
-
->*"Through deep and rewarding gameplay, Colossal Order’s new simulation fills the increasingly noticeable void in the genre. Where others have failed, Cities: Skyline excels and delivers the new gold standard of modern city-builders."* 8.8/10 **GameInformer**
-
->*"Best city builder I have ever played. This game is like the fairly new Sim City but with alot more put into it."* by **GSovereign**
-
 All the preparations for this page were used from different sources: 
-* I used classic "_pen and paper_" method to give the page it's rough outline,
-* tested some of the designs with Balsamiq
-* made a poll in Skylines group on Facebook to see what people are most interested in. Unfortunatelly, group is private and I can't leave a link to it.
+
+* I made a [Facebook group poll](https://drive.google.com/file/d/1a7LyO0rlAAxObDncjQ4M_wxV4IBSx3Jj/view?usp=sharing) to see what people are most interested in. Unfortunatelly, group is private and I can only leave a screenshot of it.
 * browsed different pages like Facebook, Reddit, Discord groups to see targeted audience biggest interests
-* browsed official Cities: Skylines page and Youtube channel for most appropriate info which is supported by game developer
-
-
-There was also an idea to have a section dedicated to traffic in this game, as people expressed most interest in this. Unfortunatelly, this will require another section on this page for which I won't have enough time, so I left this for future releases.
+* browsing competition games didn't prove to be usefull, as direct competition, EA's latest [SimCity](https://www.ea.com/games/simcity) failed and wasn't considered as a true competition
+* browsed official [Cities: Skylines](https://www.paradoxplaza.com/cities-skylines-all/) page and [Youtube channel](https://www.youtube.com/channel/UCV9RoEcgAO1Uc7oxZGS8Lkw) for most appropriate info which is supported by game developer
+* I used classic "_pen and paper_" method to give the page it's rough outline. Click [here](https://drive.google.com/drive/folders/1FkKpn1Owl7WFHw_KrGzI0d-WWd7uYySE?usp=sharing) for images(Google drive folder)
+* after initial sketches, I was browsing through [Bootstrap documentation](https://getbootstrap.com/docs/4.4/getting-started/introduction/) to find easiest methods of building the page
 
 ## Features
 
-Simplicity was the basic idea behind this project and that was proven to be difficult, as this game has a lot of content, large community and is limited by peoples imagination.
- That's why I have 4 sections:
- * Intro page
+Simplicity was the basic idea behind this project and that was proven to be difficult, as this game has a lot of content and a large community. For this reason, I divided the page into 5 sections:
+ * Welcome page - this will be the first thing a visitor seas
  * Beginners section
- * Advanced section and
- * Pro section
+ * Advanced section
+ * Pro section and
+ * Navbar - for easier navigation
+
+ I decided to go with one scrollable page because I wanted to tease the visitor to peek into next section, and continue discovering the page.This way, they will easily find their skill level and be able to find what they need.
+
+ Colours used on this page corespond with in-game colours for residential, commercial and industrial zones, which all of the players are familiar with.
+
+Fonts selected for this page are:
+
+1. [Kanit](https://fonts.google.com/specimen/Kanit) - for h1 and h2 titles
+2. [Lato](https://fonts.google.com/specimen/Lato) - for smaller titles and bolds
+3. [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) - for paragraphs and general
+
+I've used them because of all the fonts I looked, these looked like a technical letter the most, which is associated with architecture and urbanism. Games logo font, Pricedown, was a payed font for web embedding, so I was looking for something that doesn't require monetisation.
   
 ### Existing Features
 
 Each section is dedicated to users with different level of knowledge while the pro section might be usefull to even professionals such as city planners. Accordingly to these sections, each interest group has links that they can benefit from:
 
-**Intro section** is designed as simple as possible: pick your level of knowledge and follow the links. Also, during the development of this page, I found very usefull navbar with search function integrated into it. If people are looking for specific thing, that's where they can reffer to, right at the intro page.REason why this navbar is a the bottom instead of on top is that the toolbar in game is at the bottom of the UI in game. As it has the same colour, old players will be used to it and new ones will get introduced to it.
+**Intro section** is designed as simple as possible: pick your level of knowledge and follow the links. There are videos in each card which represent what each section is about. It engages the user and gives them basic navigation.
 
-**Beginners** section was created for users who want to buy the game and ones who just did that, but don't know where to go next. In this part, they will be able to see if they can play the game on their console or is their computer strong enough to run the game. Also, there are links to very basics like terminology in the game and some video tutorials.
+**Beginners** section was created for users who want to buy the game and ones who just did that, but don't know where to go next. In this part, they will be able to see if they can play the game on their console or is their computer strong enough to run the game. Also, there are links to very basics, like terminology in the game and some video tutorials.
 
 **Advanced** section is for the people who have some experience with the game and want to know how to make their ideas into reality. Therefore, there are links to basic map making, and traffic, links to workshop so users can expand the abilities of the game with most used mods which is most often asked question in any group and/or forum.
 
-**Pro** section is for people who know how to handle all of the game's tools including mods, but want to make their cities look more realistic. That's why I added some mods that are used late in the game. This will enable users to have more detailed cities with better looking visuals, and a comprehensive guide to map making. This is also where I added links to content creators for the game, added videos and playlists which will relate this game to the real world and it's application. Maybe even intrigues some visitors to start making mods and assets for the game.
+**Pro/Realism** section is for people who know how to handle all of the game's tools including mods, but want to make their cities look more realistic. This will enable users to have more detailed cities with better looking visuals, and a comprehensive guide to map making. This is also where I added links to content creators for the game, added videos and playlists which will relate this game to the real world and it's application. Maybe even intrigues some visitors to start making mods and assets for the game.
+
+**Navbar** - reason why navbar is a the bottom instead of on top is that the toolbar in game is at the bottom of the UI in game. As it has the same colour, old players will be used to it and new ones will get introduced to it.
 
 ### Features Left to Implement
 
+People expressed most interest in traffic in this game, as you can see from the poll. However, due to lack of time, I decided to leave this for future releases as it has a lot of ground to cover and cannot be explained in just a couple of links.
+
+Navbar that I used for my page is a bootstrap pre-made one and had a search bar integrated in it. My page would highly benefit from it, but since it requires coding that I haven't learned yet, I decided to leave it for future relases.
+
 After this project is submitted, there are plans to re-use it to make a portal after I gain enough knowledge in web programming(and have time) to do it. Basically, this project will be a base on which I will continue adding content, untill all or most of the content is my own. But, as I said, if my time will allow me.
-
-As mentioned before, people expressed most interest in traffic in this game. However, due to lack of time, I decided to leave this for future releases as it has a lot of ground to cover and cannot be explained in just a couple of links.
-
-Navbar that I used for my page had a search bar integrated which my page would benefit from, but since it requires coding that I haven't learned yet, I decided to leave it for future relases.
 
 ## Technologies Used
 
