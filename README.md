@@ -7,10 +7,6 @@ I already have a lot of experience with this game and a really helpfull communit
 
 Most of the text and pictures will be my own, and I will reference some videos that are publicly available. I have contacted some of the friends in the community, and they allowed me to use their work as a part of my project. You can find them in *"Credits"* section.
 
-
-## Demo:
-A live demo can be found [here](https://vlad-404.github.io/building-a-skyline/)
-
 ![Desktop Demo](https://raw.githubusercontent.com/Vlad-404/building-a-skyline/master/assets/images/mockup.JPG "Desktop Demo")
 
 In this short project, I will start with introduction to the game with links to purchase and finish with mutual influence of real life and the game. Since there is a huge gap between a person who is just starting a game and a professional, the site consists of one single scrollable page divided into 5 separate sections, one of them being a navbar that will be visible at all time to ease the navigation. 
@@ -114,11 +110,13 @@ Tools used building this page consist of:
 
 **[Bootstrap](https://getbootstrap.com/)** - used this library to simplify, speed up and optimise the page creation and looks of the page
 
+**[Google Fonts](https://fonts.google.com/)** - used for website font style
+
 **[Font Awesome](https://fontawesome.com/)** and **[Icon Finder](https://www.iconfinder.com/)** - for custom icons
 
 **[FlatIcon](https://www.flaticon.com/)** and user freepik for the usage of free favicon
 
-**[w3schools](https://www.w3schools.com/)** - knowledge(or lack of) base on how to make certain element
+**[w3schools](https://www.w3schools.com/)** - knowledge base on how to make certain element
 
 **[StackOverflow](https://stackoverflow.com/)** - to figure out why something isn't working
 
@@ -130,6 +128,13 @@ Tools used building this page consist of:
 
 
 ## Testing
+
+Testing was conducted using different web browsers and platforms:
+
+* Google Chrome (v. 80.0.3987.106), Opera (v. 66.0.3515.72) and Firefox (v.73.0) had no issues displaying the page and all links were working as they are intended
+* tested the page with different android devices, and noticed that on some, navbar was too big, so I reduced the amount of text describing the link to one word with icon
+* 
+
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
@@ -146,17 +151,6 @@ In addition, you should mention in this section how your project looks and works
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-## Deployment
----
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
 ## Credits 
 ---
