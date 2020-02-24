@@ -209,3 +209,7 @@ All of the in game images were made by me while playing the game. Playlist thumb
 - [Steam](https://store.steampowered.com/) for hosting the games workshop without which this game wouldn't have such a great community and huge library of user content
 - Skylines community for being a healthy and very supportive group which means a lot to the player of this game
 - Content creators who used their free time and talent to make this game become even more than developers planned
+
+## DISCLAIMER:
+
+This page was built for educational purposes! If you find any content that violates the copyrights, please contact me on vmijat21@gmail.com
