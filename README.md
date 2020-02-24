@@ -34,10 +34,11 @@ This project is the best way to help people learn and achieve progress in this g
 * there are examples of mutual influence of real world and this game
 * professionals have an example of city of Stockholm which used Skylines as a platform for development of one of their parts of the city
 
-Client stories:
+User stories:
 
-1. As a new visitor to the page, I want to be able to navigate it easily and find what I want easily
+1. As a new visitor to the page, I want to be able to navigate it with ease and find what I want easily
 2. As a new player to Cities: Skylines, I want to know if I can play it on my computer/console
+3. As a new player, I want to have relevant links when I click on one page
 3. I just bought the game, but I want to know how to make a good start in this game so I don't have lots of issues later
 4. As a new visitor to this page, I want to know what is my skill level and find a relevant article/video
 5. As a entry level player, I want to start with most essential mods so I can expand the limits of the game and build what I want
