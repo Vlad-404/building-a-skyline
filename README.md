@@ -97,7 +97,7 @@ Each section is dedicated to users with different level of knowledge while the p
 
 ### Features Left to Implement
 
-People expressed most interest in traffic in this game, as you can see from the poll. However, due to lack of time, I decided to leave this for future releases as it has a lot of ground to cover and cannot be explained in just a couple of links.
+People expressed most interest in traffic in this game, as you can see from the poll(see UX section). However, due to lack of time, I decided to leave this for future releases as it has a lot of ground to cover and cannot be explained in just a couple of links.
 
 Navbar that I used for my page is a bootstrap pre-made one and had a search bar integrated in it. My page would highly benefit from it, but since it requires coding that I haven't learned yet, I decided to leave it for future relases.
 
