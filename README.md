@@ -2,14 +2,16 @@
 
 Cities: Skylines - game or  a tool? Page intending to help beginners and intrigue professionals.
 
+![Desktop Demo](https://raw.githubusercontent.com/Vlad-404/building-a-skyline/master/assets/images/mockup.JPG "Desktop Demo")
+
 Idea behind this project was to make a page about game called Cities: Skylines. It is a city building simulation game. 
-I already have a lot of experience with this game and a really helpfull community that is ready to help me out, so I decided to make one stop page for relevant links and resources for this game. As much as my time and skill will allow it.
+I already have a lot of experience with this game and a really helpfull community that is ready to help me out, so I decided to make one stop page for relevant links and resources for this game.
+In this short project, I will start with introduction to the game with links to purchase and finish with mutual influence of real life and the game.
 
 Most of the text and pictures will be my own, and I will reference some videos that are publicly available. I have contacted some of the friends in the community, and they allowed me to use their work as a part of my project. You can find them in *"Credits"* section.
 
-![Desktop Demo](https://raw.githubusercontent.com/Vlad-404/building-a-skyline/master/assets/images/mockup.JPG "Desktop Demo")
 
-In this short project, I will start with introduction to the game with links to purchase and finish with mutual influence of real life and the game. Since there is a huge gap between a person who is just starting a game and a professional, the site consists of one single scrollable page divided into 5 separate sections, one of them being a navbar that will be visible at all time to ease the navigation. 
+ Since there is a huge gap between a person who is just starting a game and a professional, the site consists of one single scrollable page divided into 5 separate sections, one of them being a navbar that will be visible at all time to ease the navigation. 
 
 This website tries to address the needs of:
 * a beginner who wishes to start the game and find relevant tutorials
