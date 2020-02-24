@@ -38,7 +38,7 @@ My expectation after visiting this page will be that the beginners will want to 
 
 All the preparations for this page were used from different sources: 
 
-* I made a [Facebook group poll](https://drive.google.com/file/d/1a7LyO0rlAAxObDncjQ4M_wxV4IBSx3Jj/view?usp=sharing) to see what people are most interested in. Unfortunatelly, group is private and I can only leave a screenshot of it.
+* I made a [Facebook group poll](https://github.com/Vlad-404/building-a-skyline/blob/master/wireframes/07-poll.png) to see what people are most interested in. Unfortunatelly, group is private and I can only leave a screenshot of it.
 * browsed different pages like Facebook, Reddit, Discord groups to see targeted audience biggest interests
 * browsing competition games didn't prove to be usefull, as direct competition, EA's latest [SimCity](https://www.ea.com/games/simcity) failed and wasn't considered as a true competition
 * browsed official [Cities: Skylines](https://www.paradoxplaza.com/cities-skylines-all/) page and [Youtube channel](https://www.youtube.com/channel/UCV9RoEcgAO1Uc7oxZGS8Lkw) for most appropriate info which is supported by game developer
@@ -97,7 +97,7 @@ Each section is dedicated to users with different level of knowledge while the p
 
 ### Features Left to Implement
 
-People expressed most interest in traffic in this game, as you can see from the poll(see UX section). However, due to lack of time, I decided to leave this for future releases as it has a lot of ground to cover and cannot be explained in just a couple of links.
+People expressed most interest in traffic in this game, as you can see from the [poll](https://github.com/Vlad-404/building-a-skyline/blob/master/wireframes/07-poll.png). However, due to lack of time, I decided to leave this for future releases as it has a lot of ground to cover and cannot be explained in just a couple of links.
 
 Navbar that I used for my page is a bootstrap pre-made one and had a search bar integrated in it. My page would highly benefit from it, but since it requires coding that I haven't learned yet, I decided to leave it for future relases.
 
