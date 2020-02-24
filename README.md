@@ -34,19 +34,6 @@ This project is the best way to help people learn and achieve progress in this g
 * there are examples of mutual influence of real world and this game
 * professionals have an example of city of Stockholm which used Skylines as a platform for development of one of their parts of the city
 
-User stories:
-
-1. As a new visitor to the page, I want to be able to navigate it with ease and find what I want easily
-2. As a new player to Cities: Skylines, I want to know if I can play it on my computer/console
-3. As a new player, I want to have relevant links when I click on one page
-3. I just bought the game, but I want to know how to make a good start in this game so I don't have lots of issues later
-4. As a new visitor to this page, I want to know what is my skill level and find a relevant article/video
-5. As a entry level player, I want to start with most essential mods so I can expand the limits of the game and build what I want
-6. For experienced players who want to know how can they make their cities more realistic, there are links to advanced mods and tutorials on how to use them
-7. For city planners and Architects who want fast and cheap simulation of their project, there is an example of city of Stockholm
-8. as a returning visitor to this page, I want to be able to learn more about the game and it's mechanics
-
-
 My expectation after visiting this page will be that the beginners will want to discover more about the game, and professionals will be intrigued by application of this game as a tool to help them in their simulations in real life situations. Both of these will have enough material to go on with the resources found on this page.
 
 All the preparations for this page were used from different sources: 
@@ -55,8 +42,22 @@ All the preparations for this page were used from different sources:
 * browsed different pages like Facebook, Reddit, Discord groups to see targeted audience biggest interests
 * browsing competition games didn't prove to be usefull, as direct competition, EA's latest [SimCity](https://www.ea.com/games/simcity) failed and wasn't considered as a true competition
 * browsed official [Cities: Skylines](https://www.paradoxplaza.com/cities-skylines-all/) page and [Youtube channel](https://www.youtube.com/channel/UCV9RoEcgAO1Uc7oxZGS8Lkw) for most appropriate info which is supported by game developer
-* I used classic "_pen and paper_" method to give the page it's rough outline. Click [here](https://drive.google.com/drive/folders/1FkKpn1Owl7WFHw_KrGzI0d-WWd7uYySE?usp=sharing) for images(Google drive folder)
+* I used classic "_pen and paper_" method to give the page it's rough outline. Click [here](https://github.com/Vlad-404/building-a-skyline/tree/master/wireframes) for images
 * after initial sketches, I was browsing through [Bootstrap documentation](https://getbootstrap.com/docs/4.4/getting-started/introduction/) to find easiest methods of building the page
+
+## User stories:
+
+1. As a new visitor to the page, I want to be able to navigate it with ease and find what I want easily
+2. As a new player to Cities: Skylines, I want to know if my computer can play this game
+3. As a potential player, I want to know if I can play it on my console
+4. As a new player, I want to have relevant links when I click on one page
+5. I just bought the game, and I want to know some basic mechanics of the game
+6. As a new visitor to this page, I want to know what is my skill level and find a relevant article/video
+7. I have played this game a while, and I want to know which are the most essential mods so I can freely build what I want
+8. As a experienced player, I want to make my cities more realistic. I want to get to the page and find articles on relevant mods and techniques
+9. For city planners and Architects who want fast and cheap simulation of their project, there is an example of city of Stockholm
+10. as a returning visitor to this page, I want to be able to learn more about the game and it's mechanics
+
 
 ## Features
 
@@ -76,6 +77,7 @@ Fonts selected for this page are:
 1. [Kanit](https://fonts.google.com/specimen/Kanit) - for h1 and h2 titles
 2. [Lato](https://fonts.google.com/specimen/Lato) - for smaller titles and bolds
 3. [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) - for paragraphs and general
+4. Sans serif - as a default font if above fonts fail to load
 
 I've used them because of all the fonts I looked, these looked like a technical letter the most, which is associated with architecture and urbanism. Games logo font, Pricedown, was a payed font for web embedding, so I was looking for something that doesn't require monetisation.
   
@@ -99,7 +101,7 @@ People expressed most interest in traffic in this game, as you can see from the 
 
 Navbar that I used for my page is a bootstrap pre-made one and had a search bar integrated in it. My page would highly benefit from it, but since it requires coding that I haven't learned yet, I decided to leave it for future relases.
 
-After this project is submitted, there are plans to re-use it to make a portal after I gain enough knowledge in web programming(and have time) to do it. Basically, this project will be a base on which I will continue adding content, untill all or most of the content is my own. But, as I said, if my time will allow me.
+After this project is submitted, there are plans to re-use it to make a portal after I gain enough knowledge in web programming(and have time) to do it. Basically, this project will be a base on which I will continue adding content, untill all or most of the content is my own. Based on this, navigation tree was also planned, but since it has only one page for now, this was left for future releases.
 
 ## Technologies Used
 
@@ -134,32 +136,76 @@ Tools used building this page consist of:
 
 Testing was conducted using different web browsers and platforms:
 
-* Google Chrome (v. 80.0.3987.106), Opera (v. 66.0.3515.72) and Firefox (v.73.0) had no issues displaying the page and all links were working as they are intended
+* Google Chrome (v. 80.0.3987.106), Opera (v. 66.0.3515.72) and Firefox (v.73.0) had no issues displaying the page. All links, animations and custom effects were working as they are intended
 * tested the page with different android devices, and noticed that on some, navbar was too big, so I reduced the amount of text describing the link to one word with icon
-* 
+* I have sent my page to couple of friends to test the page on more devices. This returned in some usefull feedback:
+   - making the advanced section blue colour a bit lighter as it was difficult to read for some people
+   - section titles were getting underneath the cards on very small screen sizes; still looking into fixing this
+* used inspection mode to go through different screen sizes to see if page 
+* tested the website on 4k resolution with following results:
+  - awaiting results...
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+* [HTML validator from w3c](https://validator.w3.org/#validate_by_input)
+* [CSS validator from w3c](https://jigsaw.w3.org/css-validator/#validate_by_input)
+  - both HTML and CSS validator were used to verify the website code
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Most of the testing was done during development to get the desired result and were fixed in development.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+## User stories testing:
+
+1. *As a new visitor to the page, I want to be able to navigate it with ease and find what I want easily*
+   - navbar is added for easy navigation which is always on top and always visible. Homepage also has links to the respective sections. Colours are consistent throughout the page for each level of knowledge so visitors know which level are they on at any given time
+2. *As a new player to Cities: Skylines, I want to know if my computer can play this game*
+   - minimum and recommended specifications are added to the beginners sections.
+3. *As a potential player, I want to know if I can play it on my console*
+   - direct links to shops where game can be bought are added; each console has it's own shop represented
+4. *As a new player, I want to have relevant links when I click on one page*
+   - as this was the idea behind the creation of this project, website was designed in a way to have the most searched topics and give a brief description for each relevant link in one place - this website
+5. *I just bought the game, and I want to know some basic mechanics of the game*
+   - beginners section was designed to give a new player a good starting ground with links to articles and video tutorials
+6. *As a new visitor to this page, I want to know what is my skill level and find a relevant article/video*
+   - by scrolling through the page, user can find interesting topics and immediatelly find their level of knowledge. Relevant topics are provided at a glance
+7. *I have played this game a while, and I want to know which are the most essential mods so I can freely build what I want*
+   - advanced section has the most used mods in a convenient table with links to each of them in workshop. Mods listed make a huge difference in the game and minimal impact on game engine. This will avoid users from conflicting mods and errors with incompatible mods ingame. A separate page is planned for future releases.
+8. *As a experienced player, I want to make my cities more realistic. I want to get to the page and find articles on relevant mods and techniques*
+   - a link in navbar was named just for such reason. Visitor can find the relevant links to mods and techniques in realism section
+9. *I'm a city planner/Architect. I want to see if investing in this game will be easier/cheaper/faster to run simulations and present visualisations of my projects*
+   - For city planners and Architects who want fast and cheap simulation of their project, there is an example of city of Stockholm. More examples are planned for future releases
+10. *As a returning visitor to this page, I want to be able to learn more about the game and it's mechanics*
+    - advanced section is made for such reason. Developing skills through links to articles and tutorial videos was the purpose of this section.
+
+Left out implementations:
+
+**Search bar:** to ease the navigation and looking for a specific term, I decided to use a navbar with integrated search bar. Tested the search function but it never worked. After consulting with mentor, decided to leave it for future releases as it's currently beyond my coding skills.
+
 
 ## Credits 
----
+
+Cities: Skylines has a fairly large community for this type of game, which was one of the reasons why I decided to give something back, as lots of people helped me out in game and with web page. 
+
+To use some of the content on my page, I contacted following people and they let me use their creative work:
+* Michal Bergseth and his page distrita.com for which I wrote a couple of articles
+* Jamie Flowers aka. MrMiyagi for use of his extensive map making tutorial
+* Pug gaming for use of his on "Mods for detailing" video in realism section
+* Biffa for use of his video "Basics of traffic"
+* Pres for his making city more realistic video
+
+
 ## Content
-The text for section Y was copied from the Wikipedia article Z
+
+All of the text on this page was my creation, except in the quoted sections. 
+Fonts were used from Google Fonts and icons were used from Font Awesome and Icon Finder under free licence
+
 ### Media
-The photos used in this site were obtained from ...
-### Acknowledgements
-I received inspiration for this project from X
+All of the in game images were made by me while playing the game. Playlist thumbnail images were taken on the respective YouTube playlist channels, mainly publicly available Cities: Skylines Youtube page.
+
+## Acknowledgments and thank you's
+
+- [Colossal order](https://www.colossalorder.fi/) for making such a great game and providing active support to their player base and especially to the content creators
+- [Paradox Interactive](https://www.paradoxplaza.com/) for publishing the game
+- [Steam](https://store.steampowered.com/) for hosting the games workshop without which this game wouldn't have such a great community and huge library of user content
+- Skylines community for being a healthy and very supportive group which means a lot to the player of this game
+- Content creators who used their free time and talent to make this game become even more than developers planned
