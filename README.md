@@ -21,7 +21,7 @@ This website tries to address the needs of:
 
 ## UX
 
-My targeted audience will be gamers, enthusiasts and even professionals like city planners and Architects. All of these people are connected with one mutual subject: city planing.
+Targeted audience for this website, will be gamers, enthusiasts and even professionals like city planners and Architects. All of these people are connected with one mutual subject: city planing.
 
 This project is the best way to help people learn and achieve progress in this game because:
 
@@ -55,9 +55,31 @@ All the preparations for this page were used from different sources:
 6. As a new visitor to this page, I want to know what is my skill level and find a relevant article/video
 7. I have played this game a while, and I want to know which are the most essential mods so I can freely build what I want
 8. As a experienced player, I want to make my cities more realistic. I want to get to the page and find articles on relevant mods and techniques
-9. For city planners and Architects who want fast and cheap simulation of their project, there is an example of city of Stockholm
+9. As a city planner and/or Architect I want fast and cheap simulation of my project with an example
 10. as a returning visitor to this page, I want to be able to learn more about the game and it's mechanics
 
+### Fonts
+
+Fonts selected for this page are:
+
+1. [Kanit](https://fonts.google.com/specimen/Kanit) - for h1 and h2 titles
+2. [Lato](https://fonts.google.com/specimen/Lato) - for smaller titles and bolds
+3. [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) - for paragraphs and general
+4. **Sans serif** - as a default font if above fonts fail to load
+
+These fonts are used because they looked like a technical letter the most, which is associated with architecture and urbanism. Games logo font, Pricedown, was a payed font for web embedding, so I was looking for something that doesn't require monetisation.
+
+### Colours
+
+Colours used on this page corespond with in-game colours for industrial, commercial and residential zones, which all of the players are familiar with:
+
+* Yellow - rgba(254, 250, 177, 0.8) - for beginners, represents industrial zones
+* Blue - rgba(141, 167, 209, 0.8) - for advanced players, represents commercial zones
+* Green - rgba(103, 192, 138, 0.8) - for professionals, represents residential zones
+
+Alpha layer was used so the background picture can be seen but without too much transparency so the text remains readable.
+
+A continuous scrollable page is used because I wanted to tease the visitor to peek into next section, and continue discovering the page.This way, they will easily find their skill level and be able to find what they need.
 
 ## Features
 
@@ -67,21 +89,6 @@ Simplicity was the basic idea behind this project and that was proven to be diff
  * Advanced section
  * Pro section and
  * Navbar - for easier navigation
-
- I decided to go with one scrollable page because I wanted to tease the visitor to peek into next section, and continue discovering the page.This way, they will easily find their skill level and be able to find what they need.
-
- Colours used on this page corespond with in-game colours for residential, commercial and industrial zones, which all of the players are familiar with.
-
-Fonts selected for this page are:
-
-1. [Kanit](https://fonts.google.com/specimen/Kanit) - for h1 and h2 titles
-2. [Lato](https://fonts.google.com/specimen/Lato) - for smaller titles and bolds
-3. [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) - for paragraphs and general
-4. Sans serif - as a default font if above fonts fail to load
-
-I've used them because of all the fonts I looked, these looked like a technical letter the most, which is associated with architecture and urbanism. Games logo font, Pricedown, was a payed font for web embedding, so I was looking for something that doesn't require monetisation.
-  
-### Existing Features
 
 Each section is dedicated to users with different level of knowledge while the pro section might be usefull to even professionals such as city planners. Accordingly to these sections, each interest group has links that they can benefit from:
 
@@ -97,11 +104,13 @@ Each section is dedicated to users with different level of knowledge while the p
 
 ### Features Left to Implement
 
-People expressed most interest in traffic in this game, as you can see from the [poll](https://github.com/Vlad-404/building-a-skyline/blob/master/wireframes/07-poll.png). However, due to lack of time, I decided to leave this for future releases as it has a lot of ground to cover and cannot be explained in just a couple of links.
+People expressed most interest in **traffic** in this game, as you can see from the [poll](https://github.com/Vlad-404/building-a-skyline/blob/master/wireframes/07-poll.png). However, due to lack of time, I decided to leave this for future releases as it has a lot of ground to cover and cannot be explained in just a couple of links.
 
-Navbar that I used for my page is a bootstrap pre-made one and had a search bar integrated in it. My page would highly benefit from it, but since it requires coding that I haven't learned yet, I decided to leave it for future relases.
+**Navbar** I used had a search bar integrated in it. My page would highly benefit from it, but due to limitations in my skills and lack of proper implementation, I left it for future releases.
 
-After this project is submitted, there are plans to re-use it to make a portal after I gain enough knowledge in web programming(and have time) to do it. Basically, this project will be a base on which I will continue adding content, untill all or most of the content is my own. Based on this, navigation tree was also planned, but since it has only one page for now, this was left for future releases.
+There were some test made on how this page will look on **very large screens (2k, 4k,...)**, but due to lack of time, this was left for future releases.
+
+After this project is submitted, there are plans to re-use it to make a **portal** after I gain enough knowledge in web programming(and have time) to do it. Basically, this project will be a base on which I will continue adding content, untill all or most of the content is my own. Based on this, **navigation tree** was also planned, but since it has only one page for now, this was left for future releases.
 
 ## Technologies Used
 
@@ -113,21 +122,19 @@ Tools used building this page consist of:
 
 **JavaScript** - used within bootstrap to create colapsable navbar for smaller screens
 
+**[Git](https://git-scm.com/)** - writing and coding platform
+
 **[Bootstrap](https://getbootstrap.com/)** - used this library to simplify, speed up and optimise the page creation and looks of the page
+
+**[JQuerry](https://jquery.com/)** - for use with Bootstrap(dependencies)
+
+**[Popper](https://popper.js.org/)** - for use with Bootstrap(dependencies)
 
 **[Google Fonts](https://fonts.google.com/)** - used for website font style
 
 **[Font Awesome](https://fontawesome.com/)** and **[Icon Finder](https://www.iconfinder.com/)** - for custom icons
 
 **[FlatIcon](https://www.flaticon.com/)** and user freepik for the usage of free favicon
-
-**[w3schools](https://www.w3schools.com/)** - knowledge base on how to make certain element
-
-**[StackOverflow](https://stackoverflow.com/)** - to figure out why something isn't working
-
-**[Github](https://github.com/)** and **[Gitpod](https://www.gitpod.io/)** - to build and host the page
-
-**[Repl.it](https://repl.it/)** - to re-use the code I practiced with
 
 **[Notepad++](https://notepad-plus-plus.org/downloads/)** - to backup the page locally
 
@@ -141,16 +148,10 @@ Testing was conducted using different web browsers and platforms:
 * I have sent my page to couple of friends to test the page on more devices. This returned in some usefull feedback:
    - making the advanced section blue colour a bit lighter as it was difficult to read for some people
    - section titles were getting underneath the cards on very small screen sizes; still looking into fixing this
-* used inspection mode to go through different screen sizes to see if page 
-* tested the website on 4k resolution with following results:
-  - awaiting results...
-
-
-* [HTML validator from w3c](https://validator.w3.org/#validate_by_input)
-* [CSS validator from w3c](https://jigsaw.w3.org/css-validator/#validate_by_input)
+* used dev tools to go through different screen sizes to see if page is displaying properly on different screen sizes, including tablet and mobile
+* [HTML validator from w3c](https://validator.w3.org/nu/#textarea)
+* [CSS validator from w3c](https://jigsaw.w3.org/css-validator/validator)
   - both HTML and CSS validator were used to verify the website code
-
-
 
 Most of the testing was done during development to get the desired result and were fixed in development.
 
@@ -172,8 +173,8 @@ Most of the testing was done during development to get the desired result and we
    - advanced section has the most used mods in a convenient table with links to each of them in workshop. Mods listed make a huge difference in the game and minimal impact on game engine. This will avoid users from conflicting mods and errors with incompatible mods ingame. A separate page is planned for future releases.
 8. *As a experienced player, I want to make my cities more realistic. I want to get to the page and find articles on relevant mods and techniques*
    - a link in navbar was named just for such reason. Visitor can find the relevant links to mods and techniques in realism section
-9. *I'm a city planner/Architect. I want to see if investing in this game will be easier/cheaper/faster to run simulations and present visualisations of my projects*
-   - For city planners and Architects who want fast and cheap simulation of their project, there is an example of city of Stockholm. More examples are planned for future releases
+9. *As a city planner and/or Architect I want fast and cheap simulation of my project with an example*
+   - For city planners and Architects who want fast and cheap simulation of their project, there is an example of city of Stockholm. More examples are planned for future releases. This was also one of the topics which had high interest in a poll.
 10. *As a returning visitor to this page, I want to be able to learn more about the game and it's mechanics*
     - advanced section is made for such reason. Developing skills through links to articles and tutorial videos was the purpose of this section.
 
@@ -187,11 +188,11 @@ Left out implementations:
 Cities: Skylines has a fairly large community for this type of game, which was one of the reasons why I decided to give something back, as lots of people helped me out in game and with web page. 
 
 To use some of the content on my page, I contacted following people and they let me use their creative work:
-* Michal Bergseth and his page distrita.com for which I wrote a couple of articles
-* Jamie Flowers aka. MrMiyagi for use of his extensive map making tutorial
-* Pug gaming for use of his on "Mods for detailing" video in realism section
-* Biffa for use of his video "Basics of traffic"
-* Pres for his making city more realistic video
+* [Michal Bergseth](https://www.facebook.com/michal.bergseth) and his page distrita.com for which I wrote a couple of articles
+* Jamie Flowers aka. [MrMiyagi](https://steamcommunity.com/id/MrMiyagiCS) for use of his extensive map making tutorial
+* [Pug gaming](https://www.youtube.com/channel/UC3URDLryGckciQevsBF9Qvg) for use of his on "Mods for detailing" video in realism section
+* [Biffa](https://www.youtube.com/channel/UCYzO4HZxgXc2UJQD5bIo8AQ) for use of his video "Basics of traffic". I owed him a cup of tea for this ;)
+* [Pres](https://www.youtube.com/channel/UCeApSRY9V9Yftfvcfi7zjsQ) for his _Making city more realistic_ video
 
 
 ## Content
@@ -202,8 +203,12 @@ Fonts were used from Google Fonts and icons were used from Font Awesome and Icon
 ### Media
 All of the in game images were made by me while playing the game. Playlist thumbnail images were taken on the respective YouTube playlist channels, mainly publicly available Cities: Skylines Youtube page.
 
-## Acknowledgments and thank you's
+## Acknowledgments and thank you's:
 
+- [w3schools](https://www.w3schools.com/) - for their large library of articles and explanations on basics of HTML and CSS
+- [StackOverflow](https://stackoverflow.com/) - for helping me understand why something isn't working and general help
+- [Github](https://github.com/) and [Gitpod](https://www.gitpod.io/) - for use of their services
+- [Repl.it](https://repl.it/) - for hosting my excercises and being a stable platform for code re-use
 - [Colossal order](https://www.colossalorder.fi/) for making such a great game and providing active support to their player base and especially to the content creators
 - [Paradox Interactive](https://www.paradoxplaza.com/) for publishing the game
 - [Steam](https://store.steampowered.com/) for hosting the games workshop without which this game wouldn't have such a great community and huge library of user content
