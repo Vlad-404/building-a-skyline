@@ -143,11 +143,11 @@ Tools used building this page consist of:
 
 Testing was conducted using different web browsers and platforms:
 
-* Google Chrome (v. 80.0.3987.106), Opera (v. 66.0.3515.72) and Firefox (v.73.0) had no issues displaying the page. All links, animations and custom effects were working as they are intended
+* Website was tested with Google Chrome, Opera and Firefox and they had no issues displaying the page. All links, animations and custom effects were working as they are intended
 * tested the page with different android devices, and noticed that on some, navbar was too big, so I reduced the amount of text describing the link to one word with icon
 * I have sent my page to couple of friends to test the page on more devices. This returned in some usefull feedback:
-   - making the advanced section blue colour a bit lighter as it was difficult to read for some people
-   - section titles were getting underneath the cards on very small screen sizes; still looking into fixing this
+   - advanced section was difficult to read for some people because of dark blue colour, so I changed it to a lighter shade of blue
+   - section titles were getting underneath the cards on very small screen sizes; fixed by reducing the amount of text in titles
 * used dev tools to go through different screen sizes to see if page is displaying properly on different screen sizes, including tablet and mobile
 * [HTML validator from w3c](https://validator.w3.org/nu/#textarea)
 * [CSS validator from w3c](https://jigsaw.w3.org/css-validator/validator)
