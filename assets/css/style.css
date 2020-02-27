@@ -19,6 +19,24 @@ body {
     color: #373737;
 }
 
+td {
+    overflow: hidden;
+}
+td a {
+    display: block;
+    margin: -10em;
+    padding: 10em;
+}
+
+td:first-child { 
+    font-family: 'Lato', 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    width: 25%;
+}
+
 /*Header */
 
 #home {
@@ -380,23 +398,6 @@ body {
   vertical-align: top;
 }
 
-td {
-    overflow: hidden;
-}
-td a {
-    display: block;
-    margin: -10em;
-    padding: 10em;
-}
-
-td:first-child { 
-    font-family: 'Lato', 'Source Sans Pro', sans-serif;
-    font-size: 1rem;
-    font-weight: bold;
-    text-align: left;
-    text-transform: uppercase;
-    width: 25%;
-}
 
 #mods tr:nth-child(even){background-color: rgb(156, 178, 216);}
 
