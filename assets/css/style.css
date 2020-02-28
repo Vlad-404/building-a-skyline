@@ -327,6 +327,7 @@ td:first-child {
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
+    margin: 10px;
 }
 
 #purchase{

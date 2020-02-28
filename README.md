@@ -1,51 +1,51 @@
 # BUILDING A SKYLINE
 
-Cities: Skylines - game or  a tool? Page intending to help beginners and intrigue professionals.
+Cities: Skylines - a game or  a tool? A page intending to help beginners and intrigue professionals.
 
 ![Desktop Demo](https://raw.githubusercontent.com/Vlad-404/building-a-skyline/master/assets/images/mockup.JPG "Desktop Demo")
 
-Idea behind this project was to make a page about game called Cities: Skylines. It is a city building simulation game. 
-I already have a lot of experience with this game and a really helpfull community that is ready to help me out, so I decided to make one stop page for relevant links and resources for this game.
-In this short project, I will start with introduction to the game with links to purchase and finish with mutual influence of real life and the game.
+The idea behind this project was to make a page about a game called Cities: Skylines. It is a city building simulation game. 
+I already have a lot of experience with this game and a really helpful community that is ready to help me out, so I decided to make a one stop page for relevant links and resources for this game.
+In this short project, I will start with an introduction to the game with links to purchase, and finish with mutual influence of real life and the game.
 
-Most of the text and pictures will be my own, and I will reference some videos that are publicly available. I have contacted some of the friends in the community, and they allowed me to use their work as a part of my project. You can find them in *"Credits"* section.
+Most of the text and pictures will be my own, and I will reference some videos that are publicly available. I have contacted some of my friends in the community, and they allowed me to use their work as a part of my project. You can find them in the *"Credits"* section.
 
 
- Since there is a huge gap between a person who is just starting a game and a professional, the site consists of one single scrollable page divided into 5 separate sections, one of them being a navbar that will be visible at all time to ease the navigation. 
+ Since there is a huge gap between a person who is just starting a game and a professional, the site consists of one single scrollable page divided into 5 separate sections, one of them being a navbar that will be visible at all times to ease the navigation. 
 
 This website tries to address the needs of:
-* a beginner who wishes to start the game and find relevant tutorials
-* regular player who wants to know about mods, map making, introduction to traffic and to expand the limits of the game
-* advanced player who wants to know how to make his city look more realistic
-* a professional, like a city planner who can find examples of how game was used to simplify and speed up simulations and visualisations
+* A beginner who wishes to start the game and find relevant tutorials.
+* A regular player who wants to know about mods, map making, introduction to traffic and to expand the limits of the game.
+* An advanced player who wants to know how to make his city look more realistic.
+* A professional, like a city planner who can find examples of how the game was used to simplify and speed up simulations and visualisations.
 
 ## UX
 
-Targeted audience for this website, will be gamers, enthusiasts and even professionals like city planners and Architects. All of these people are connected with one mutual subject: city planing.
+Targeted audience for this website will be gamers, enthusiasts and even professionals like city planners and Architects. All of these people are connected by one mutual subject: city planing.
 
 This project is the best way to help people learn and achieve progress in this game because:
 
-* basic tutorials, minimum requirements for pc and platforms available are all in one place (with links)
-* purchasing options are easy accessible
-* there is no single page they can go to. They can search through Google, but having all or most things in one place is very handy
-* you can easily develop your skills as page is divided in three sections. You can find your level and see where you can go next
-* essential mods are at a glance which is the most asked question in any group
-* lots of people are asking how to make their cities more realistic. There's a complete section on that
-* there are examples of mutual influence of real world and this game
-* professionals have an example of city of Stockholm which used Skylines as a platform for development of one of their parts of the city
+* Basic tutorials, minimum requirements for pc and platforms available are all in one place (with links).
+* Purchasing options are easily accessible.
+* There is no single page they can go to. They can search through Google, but having all or most things in one place is very handy.
+* You can easily develop your skills as the page is divided into three sections. You can find your level and see where you can go next.
+* Essential mods are at a glance which is the most asked question in any group.
+* Lots of people are asking how to make their cities more realistic. There's a complete section on that.
+* There are examples of mutual influence between the real world and this game.
+* Professionals have an example in the city of Stockholm which used Skylines as a platform for the development of one of their parts of the city.
 
-My expectation after visiting this page will be that the beginners will want to discover more about the game, and professionals will be intrigued by application of this game as a tool to help them in their simulations in real life situations. Both of these will have enough material to go on with the resources found on this page.
+My expectation after visiting this page will be that the beginners will want to discover more about the game, and the professionals will be intrigued by the application of this game as a tool to help them in their simulations in real life situations. Both groups will have enough material to go on with the resources found on this page.
 
-All the preparations for this page were used from different sources: 
+All the preparations for this page were made using different sources: 
 
-* I made a [Facebook group poll](https://github.com/Vlad-404/building-a-skyline/blob/master/wireframes/07-poll.png) to see what people are most interested in. Unfortunatelly, group is private and I can only leave a screenshot of it.
-* browsed different pages like Facebook, Reddit, Discord groups to see targeted audience biggest interests
-* browsing competition games didn't prove to be usefull, as direct competition, EA's latest [SimCity](https://www.ea.com/games/simcity) failed and wasn't considered as a true competition
-* browsed official [Cities: Skylines](https://www.paradoxplaza.com/cities-skylines-all/) page and [Youtube channel](https://www.youtube.com/channel/UCV9RoEcgAO1Uc7oxZGS8Lkw) for most appropriate info which is supported by game developer
-* I used classic "_pen and paper_" method to give the page it's rough outline. Click [here](https://github.com/Vlad-404/building-a-skyline/tree/master/wireframes) for images
-* after initial sketches, I was browsing through [Bootstrap documentation](https://getbootstrap.com/docs/4.4/getting-started/introduction/) to find easiest methods of building the page
+* I made a [Facebook group poll](https://github.com/Vlad-404/building-a-skyline/blob/master/wireframes/07-poll.png) to see what people are most interested in. Unfortunately, the group is private and I can only leave a screenshot of it.
+* I browsed different pages like Facebook, Reddit, and Discord groups to see the target audience's biggest interests
+* browsing competition games didn't prove to be useful, as direct competition, EA's latest [SimCity](https://www.ea.com/games/simcity) failed and wasn't considered as a true competition
+* I browsed the official [Cities: Skylines](https://www.paradoxplaza.com/cities-skylines-all/) page and [YouTube channel](https://www.youtube.com/channel/UCV9RoEcgAO1Uc7oxZGS8Lkw) for the most appropriate info which is supported by the game developer
+* I used the classic "_pen and paper_" method to give the page its rough outline. Click [here](https://github.com/Vlad-404/building-a-skyline/tree/master/wireframes) for images
+* after the initial sketches, I was browsing through [Bootstrap documentation](https://getbootstrap.com/docs/4.4/getting-started/introduction/) to find the easiest methods of building the page
 
-## User stories:
+## User Stories:
 
 1. As a new visitor to the page, I want to be able to navigate it with ease and find what I want easily
 2. As a new player to Cities: Skylines, I want to know if my computer can play this game
