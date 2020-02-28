@@ -205,15 +205,16 @@ All of the in game images were made by me while playing the game. Playlist thumb
 
 ## Acknowledgments and thank you's:
 
-- [w3schools](https://www.w3schools.com/) - for their large library of articles and explanations on basics of HTML and CSS
-- [StackOverflow](https://stackoverflow.com/) - for helping me understand why something isn't working and general help
-- [Github](https://github.com/) and [Gitpod](https://www.gitpod.io/) - for use of their services
-- [Repl.it](https://repl.it/) - for hosting my excercises and being a stable platform for code re-use
-- [Colossal order](https://www.colossalorder.fi/) for making such a great game and providing active support to their player base and especially to the content creators
-- [Paradox Interactive](https://www.paradoxplaza.com/) for publishing the game
-- [Steam](https://store.steampowered.com/) for hosting the games workshop without which this game wouldn't have such a great community and huge library of user content
-- Skylines community for being a healthy and very supportive group which means a lot to the player of this game
-- Content creators who used their free time and talent to make this game become even more than developers planned
+- [w3schools](https://www.w3schools.com/) - for their large library of articles and explanations on basics of HTML and CSS.
+- [StackOverflow](https://stackoverflow.com/) - for helping me understand why something isn't working and general help.
+- [Github](https://github.com/) and [Gitpod](https://www.gitpod.io/) - for use of their services.
+- [Repl.it](https://repl.it/) - for hosting my excercises and being a stable platform for code re-use.
+- [Colossal order](https://www.colossalorder.fi/) for making such a great game and providing active support to their player base and especially to the content creators.
+- [Paradox Interactive](https://www.paradoxplaza.com/) for publishing the game.
+- [Steam](https://store.steampowered.com/) for hosting the games workshop without which this game wouldn't have such a great community and huge library of user content.
+- Skylines community for being a healthy and very supportive group which means a lot to the player of this game.
+- Content creators who used their free time and talent to make this game become even more than developers planned.
+- Last but not least, my girlfriend Rebeka for doing the proofreading and supporting me throughout this project.
 
 ## DISCLAIMER:
 
